@@ -22,7 +22,10 @@ class MainHandler(tornado.web.RequestHandler):
 
 class MungedPageHandler(tornado.web.RequestHandler):
     def map_by_first_letter(self, text):
-        aihao = {"liuchaohao":"海贼王，刺客信条","lijiahui":"刺客信条，超超威蓝猫","yangjing":"古墓丽影，葫芦娃，天线宝宝","fuyijun":"英雄联盟，破木结他"}
+        aihao = {"liuchaohao":"海贼王，刺客信条",
+                "lijiahui":"刺客信条，超超威蓝猫",
+                "yangjing":"古墓丽影，葫芦娃，天线宝宝",
+                "fuyijun":"英雄联盟，破木结他"}
         if text:
             if text in aihao:
                 return aihao[text]
