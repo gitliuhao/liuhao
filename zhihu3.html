@@ -1,0 +1,2174 @@
+<!doctype html>
+<html lang="zh-CN" class="">
+    <head>
+        <meta charset="UTF-8">
+        <title>动态 - 里约奥运 - 知乎</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+        <meta name="apple-itunes-app" content="app-id=432274380, app-argument=zhihu://roundtable/rio2016">
+        <link rel="stylesheet" href="http://static.zhihu.com/static/revved/-/css/z.30ee666c.css">
+        <link rel="stylesheet" href="http://static.zhihu.com/static/revved/-/css/r.80a4faca.css">
+        <!--[if lt IE 9]><script src="http://static.zhihu.com/static/components/respond/dest/respond.min.js"></script><link href="http://static.zhihu.com/static/components/respond/cross-domain/respond-proxy.html" id="respond-proxy" rel="respond-proxy" /><link href="/static/components/respond/cross-domain/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" /><script src="/static/components/respond/cross-domain/respond.proxy.js"></script><![endif]-->
+        <script src="http://static.zhihu.com/static/revved/-/js/instant.14757a4a.js"></script>
+        <!--[if lt IE 9]><script src="http://static.zhihu.com/static/components/html5shiv/dist/html5shiv.js"></script><![endif]-->
+    </head>
+    <body class="zhi page-roundtable">
+        <div role="navigation" class="zu-top" data-za-module="TopNavBar">
+            <div class="zg-wrap modal-shifting clearfix" id="zh-top-inner">
+                <a href="/" class="zu-top-link-logo" id="zh-top-link-logo" data-za-c="view_home" data-za-a="visit_home" data-za-l="top_navigation_zhihu_logo">知乎</a>
+                <ul class="topnav-noauth clearfix">
+                    <li>
+                        <a href="javascript:;" class="js-signup-noauth">
+                            <i class="zg-icon zg-icon-dd-home"></i>
+                            注册知乎
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="js-signin-noauth">登录</a>
+                    </li>
+                </ul>
+                <button class="zu-top-add-question" id="zu-top-add-question">提问</button>
+                <div role="search" id="zh-top-search" class="zu-top-search">
+                    <form method="GET" action="/search" id="zh-top-search-form" class="zu-top-search-form">
+                        <input type="hidden" name="type" value="content">
+                        <label for="q" class="hide-text">知乎搜索</label>
+                        <input type="text" class="zu-top-search-input" id="q" name="q" autocomplete="off" value="" placeholder="搜索你感兴趣的内容...">
+                        <button type="submit" class="zu-top-search-button">
+                            <span class="hide-text">搜索</span>
+                            <span class="sprite-global-icon-magnifier-dark"></span>
+                        </button>
+                    </form>
+                </div>
+                <div id="zg-top-nav" class="zu-top-nav">
+                    <ul class="zu-top-nav-ul zg-clear">
+                        <li class="zu-top-nav-li " id="zh-top-nav-home">
+                            <a class="zu-top-nav-link" href="/" id="zh-top-link-home" data-za-c="view_home" data-za-a="visit_home" data-za-l="top_navigation_home">首页</a>
+                        </li>
+                        <li class="top-nav-topic-selector zu-top-nav-li " id="zh-top-nav-topic">
+                            <a class="zu-top-nav-link" href="/topic" id="top-nav-dd-topic">话题</a>
+                        </li>
+                        <li class="zu-top-nav-li " id="zh-top-nav-explore">
+                            <a class="zu-top-nav-link" href="/explore">发现</a>
+                        </li>
+                    </ul>
+                    <div class="zu-top-nav-live zu-noti7-popup zg-r5px no-hovercard" id="zh-top-nav-live-new" role="popup" tabindex="0">
+                        <div class="zu-top-nav-live-inner zg-r5px">
+                            <div class="zu-top-live-icon">&nbsp;</div>
+                            <div class="zu-home-noti-inner" id="zh-top-nav-live-new-inner">
+                                <div class="zm-noti7-popup-tab-container clearfix" tabindex="0">
+                                    <button class="zm-noti7-popup-tab-item message">
+                                        <span class="icon">消息</span>
+                                    </button>
+                                    <button class="zm-noti7-popup-tab-item user">
+                                        <span class="icon">用户</span>
+                                    </button>
+                                    <button class="zm-noti7-popup-tab-item thanks">
+                                        <span class="icon">赞同和感谢</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="zm-noti7-frame-border top"></div>
+                            <div class="zm-noti7-frame">
+                                <div class="zm-noti7-content message">
+                                    <div class="zm-noti7-content-inner">
+                                        <div class="zm-noti7-content-body">
+                                            <div class="zm-noti7-popup-loading">
+                                                <span class="noti-spinner-loading"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="zm-noti7-content user" style="display:none;">
+                                    <div class="zm-noti7-content-inner">
+                                        <div class="zm-noti7-content-body">
+                                            <div class="zm-noti7-popup-loading">
+                                                <span class="noti-spinner-loading"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="zm-noti7-content thanks" style="display:none;">
+                                    <div class="zm-noti7-content-inner">
+                                        <div class="zm-noti7-content-body">
+                                            <div class="zm-noti7-popup-loading">
+                                                <span class="noti-spinner-loading"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="zm-noti7-frame-border bottom"></div>
+                            <div class="zm-noti7-popup-footer">
+                                <a href="/notifications" class="zm-noti7-popup-footer-all zg-right">查看全部 &raquo;</a>
+                                <a href="/settings/notification" class="zm-noti7-popup-footer-set" title="通知设置">
+                                    <i class="zg-icon zg-icon-settings"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="zu-global-notify" id="zh-global-message" style="display:none">
+            <div class="zg-wrap">
+                <div class="zu-global-nitify-inner">
+                    <a class="zu-global-notify-close" href="javascript:;" title="关闭" name="close">x</a>
+                    <span class="zu-global-notify-icon"></span>
+                    <span class="zu-global-notify-msg"></span>
+                </div>
+            </div>
+        </div>
+        <main class="pure-g receptacle">
+            <section class="page-content-main pure-u-1 pure-u-md-17-24">
+                <div class="unit-inner">
+                    <div class="module roundtable-profile clearfix">
+                        <a href="/roundtable/rio2016" class="photo visible-desktop">
+                            <img src="https://pic3.zhimg.com/34b5298e3b8dd7da373d610e88d7688a_xl.png" alt="里约奥运" class="avatar">
+                        </a>
+                        <div class="content">
+                            <div class="title">
+                                <h1>
+                                    <a href="/roundtable/rio2016">里约奥运</a>
+                                </h1>
+                                <span class="status">已结束</span>
+                            </div>
+                            <div class="description">2016 里约奥运会正式闭幕，各国运动员纷纷登场展示运动风采。张梦雪夺中国队首金，傅园慧走红互联网，中国女排再夺奥运冠军！本期圆桌伴随 2016 里约奥运会的进行，和大家一同分享关于奥运会，乃至体育各方面的点点滴滴。</div>
+                            <div class="actions">
+                                <button class="button-link share pull-left" data-id="136" data-token="rio2016">
+                                    <i class="fi fi-share"></i>
+                                    分享
+                                </button>
+                                <span class="visits text-muted">19322845 次浏览 </span>
+                                <span class="bull">&bull;</span>
+                                <a href="/roundtable/rio2016/followers" class="followers text-muted">
+                                    <span class="count" data-count="34948">34948</span>
+                                    人关注
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="module">
+                        <ul class="menu-nav horizontal">
+                            <li class="active">
+                                <a href="/roundtable/rio2016">
+                                    120 <span class="nowrap">条动态</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/roundtable/rio2016/questions">
+                                    74 <span class="nowrap">个问题</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/roundtable/rio2016/comments">
+                                    418 <span class="nowrap">条讨论</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="feeds loose">
+                        <ul class="items" data-paging="{&quot;next&quot;: &quot;/r/roundtables/rio2016/activities?offset=21&quot;}" data-navigable>
+                            <li class="item" data-type="Answer">
+                                <a class="zg-anchor-hidden" name="answer-42701748"></a>
+                                <link itemprop="url" href="/question/49843888/answer/118040554">
+                                <meta itemprop="question-id" content="12154235">
+                                <meta itemprop="question-url-token" content="49843888">
+                                <meta itemprop="answer-id" content="42701748">
+                                <meta itemprop="answer-url-token" content="118040554">
+                                <div class="item-header">
+                                    <h2 class="item-title">
+                                        <a class="js-title-link" target="_blank" href="/question/49843888/answer/118040554">2016 里约奥运会中国女排夺冠有哪些精彩之处？</a>
+                                    </h2>
+                                </div>
+                                <article class="entry answer">
+                                    <div class="entry-left hidden-phone">
+                                        <a class="rating hidden-expanded js-expand js-vote-count" data-bind-votecount>2571</a>
+                                        <div class="votebar visible-expanded">
+                                            <button class="up " title="赞同">
+                                                <i class="fi-voteup-arrow"></i>
+                                                <span class="count">2571</span>
+                                                <span class="sr-only">赞同</span>
+                                            </button>
+                                            <button class="down" title="反对，不会显示你的姓名">
+                                                <i class="fi-votedown-arrow"></i>
+                                                <span class="sr-only">反对，不会显示你的姓名</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="entry-body">
+                                        <div class="entry-meta">
+                                            <strong class="author-line">
+                                                <a class="author" href="/people/wang-tian-19-70-85" data-hovercard='p$t$wang-tian-19-70-85'>王天</a>
+                                                ，<span title="排球、电影、日语" class="bio">排球、电影、日语</span>
+                                            </strong>
+                                        </div>
+                                        <div class="entry-content js-collapse-body" data-author-name="王天" data-entry-url="/question/49843888/answer/118040554">
+                                            <div class="summary hidden-expanded js-expand">
+                                                快看疯了！！第三次奥运会冠军！！ 说说今天的比赛。 最亮眼的是发球和防守。发球太重要了，几乎发球发出来就赢了一半，这话不夸张。今天的发球非常有效，朱婷、袁心玥、惠若琪、丁霞都不错，多次冲击塞尔维亚一传，在关键球竟然也有得分，心态确实强大的可…<a class="toggle-expand inline" href="/question/49843888/answer/118040554">显示全部</a>
+                                            </div>
+                                            <div class="visible-expanded">
+                                                <div class="zm-item-vote-info" data-votecount="2571">
+                                                    <span class="voters">
+                                                        <span class="member">
+                                                            <a href="/people/chen-dao-qin-97" data-hovercard='p$t$chen-dao-qin-97'>陈道钦</a>
+                                                            <span>、</span>
+                                                        </span>
+                                                        <span class="member">
+                                                            <a href="/people/wan-zi-ai-xue-xi" data-hovercard='p$t$wan-zi-ai-xue-xi'>丸子爱学习</a>
+                                                            <span>、</span>
+                                                        </span>
+                                                        <span class="member">
+                                                            <a href="/people/pai-xiao-xing-xian-sheng" data-hovercard='p$t$pai-xiao-xing-xian-sheng'>派小星先生</a>
+                                                        </span>
+                                                    </span>
+                                                    <a class="more">等人赞同</a>
+                                                </div>
+                                                <script type="text" class="content">
+                                                    快看疯了！！第三次奥运会冠军！！<br><br>说说今天的比赛。<br><br>最亮眼的是发球和防守。发球太重要了，几乎发球发出来就赢了一半，这话不夸张。今天的发球非常有效，朱婷、袁心玥、惠若琪、丁霞都不错，多次冲击塞尔维亚一传，在关键球竟然也有得分，心态确实强大的可怕。<br><br>能明显看出来中国队一般在第三局会出现体力的不支，第三局在大比分领先的情况下连续卡轮。但是全程拼命、全力的防守，神奇地防起了很多异常艰难的球。<br><br>在进攻上，基本打出了以朱婷为核心、多点进攻的局面。拦防也非常好，将发挥不佳塞尔维亚的米哈拦下场。<br><br>说说中国女排领导者，郎平。<br><br>很多人用“传奇、伟大”这些虚无缥缈的词汇来形容郎平，我觉得特别空洞。纵观她的这一整个奥运周期的执教历程，关键词是“<b>精细、针对性、核心领袖</b>”，我们具体看看这三个关键词。<br><br>首先说一点：<b>意图淡化郎平执教作用的言论，都是鬼扯！</b><br><br><br>比如有人说，中国女排成功之处主要是有了朱婷这一世界级的进攻点，说这句话的人应该去吃屎，真的。我认为朱婷的出现，最多只能占这个周期中国队成绩辉煌的三成因素。如果没有其他方面的技术支援，只靠一个世界级攻手绝对是独木难支。可以看看韩国队、2004年前半年的俄罗斯、90年代的克罗地亚，拥有强大的金延璟、加莫娃、芭芭拉，其他火力不够，该输的比赛照输不误。<br><br>而且很多人说这个周期中国队的人才出现井喷，朱婷、袁心玥、张常宁、龚翔宇等新人的出现，所以才能成绩进步。这种观点我也不同意。中国半死不活的女排联赛、低迷的关注度、赞助商甚至都解约！联赛球员就那么点儿、可选之人少之又少、能进国家队、能上场比赛的更是少得可怜·····这样的人才匮乏你给我说后备充足？别开玩笑了！郎平选才、其实很捉襟见肘，可以看到刚进国家队的队员，各有各的漏洞，除了朱婷，没有什么天才球员。普遍都是能力不差，漏洞不少。<br><br>其实中国女排的人才匮乏在雅典奥运会之后就已经暴露出来，老将伤病累累、新人难以顶上。陈忠和都苦笑的说出那句著名的：“巧妇难为无米之炊。”虽说2008年-2012年这个周期赢过女排世界杯第三名，不过总的来说那一段时间女排一直是二流水平，实力难以冲击世界强队美国、巴西、俄罗斯等。<br><br>郎平刚刚接手的时候情况也不乐观。她接受采访时也坦言，自己也想打快速的风格，但是快不了。因为队员普遍的技术基础都不够扎实，很多人进国家队反而从基本功训练。连自由人的一传、防守都不过硬。这样的人才储备，还叫有好牌？？<br><br>但是郎平的厉害之处在队员训练的时候就显现出来了。<br><br>她首先利用自己获得的支持、建立强大的保障团队，在竞技体育里保障团队多重要不言而喻。其次、偏向科学的训练方式，既人性化又能避免大规模伤病的出现。（这不由得想起老陈执教后期，在控制运动员伤病、合理训练的方面做得很差）<br><br>然而，最重要的是，她的针对性提高训练，<b>非常实效、精细、合理。</b><br><br><br>时时关注女排的球迷就会知道，中国队在2013年的时候并不顺利，亚洲锦标赛只拿到第四名、30多年来最差成绩。但是随着日积月累，女排慢慢变化了。<br><br>比如发球，以前的发球失误率偏高，威胁还比较一般。现在中国队至少有三个比较不错的发球点，而且刁钻的发球能持续的找对方弱点。<br><br>比如一传。朱婷、张常宁等一般的一传水平慢慢不再是漏洞，朱婷甚至成长为能顶六轮一传的全面强力主攻，这在2013年谁能想到？<br><br>比如拦网。副攻的拦网水平已经不错了，甚至连主攻的端拦网能力都大幅提升，朱婷现在的端拦网可以说是世界上最强的之一了，丝毫不比科舍列娃、冈察洛娃差。参见中国队拦网最强表现，可以翻看14年大奖赛拦意大利、14年世锦赛拦日本，15年的大奖赛分站赛拦泰国、日本，15年世界杯拦俄罗斯，霸气的拦网丝毫不留情面，残忍虐爆对方进攻。<br><br>回想伦敦奥运会惜败日本，让日本两个主攻木村纱织、江畑幸子打high了，两人加起来100多次的进攻基本没拦到几个。现在中国队的拦网能让她们这么爽？再也不可能了。<br><br>我们可以发现，<b>郎平的改革并不大刀阔斧，而是润物细无声的。</b>她像一个严密、精细的木工，将一个大木桶的漏洞、细缝慢慢弥补，终于这个木桶变得愈加坚固、耐用。<br><br>郎平的能力毋庸置疑。这种“说要练什么就能把什么练出来”的能力，让她在手上没有多少好牌的情况下，依然能打出好牌。基本实现了这批队员作用的最大化。在她的影响之下，女排队伍在三年多的时间慢慢捏合成型，越发老练。虽然也有起伏，但是早已焕发出超强队伍的风采。<br><br>其实大多数女排教练都是有意识的，没有几个人是会想出<b>王一梅接一传、擦地板，保障杨婕进攻</b>的这种“绝佳妙计”的。几乎每个人都知道女排问题在哪里，要改善哪些方面才能使中国队变得更强。但是有些是能力有限，想提高却难以提高，有些则是舆论对他们太不宽容，改革半天没实效？滚下台吧。<br><br>所以，郎平的执教经历，不仅有她自身的强大能力的支撑，还有她本人传奇的声誉带来的球迷的宽容心态。这些都是她的改革能够坚持下去的条件。<br><br>说了这么多，再谈谈这支郎家军的特点吧。中国队历史上一直强调，我们的特点是“快速多变”。现在世界女排越来越高大化、强力化，中国队基本都是高大队员了，历史上那些快速全面的低矮队员应该再也不会出现在国家队了。现在看起来，整体的“快速”是快不起来了，巴西、美国、荷兰、泰国等球队打起来都比我们快一些，中国队现在是以朱婷为进攻核心、强调多点进攻的高大化队伍，和“黄金一代”特点完全不一样了。但是“<b>多变</b>”真是贯彻的挺好的，中国队现在除了朱婷和自由人全勤，几乎没什么固定首发。这也是郎平的另一个指导思想：淡化主力和替补区别，人人都能打，巧妙组合打好牌。<br><br>再说一句，现在女排并没有绝对统治地位，简言之就是没有强大到逮谁虐谁。21世纪以来，只有三支队伍实现这一目标：03年的中国队（黄金一代最巅峰）、08年的巴西队（弗法奥+巅峰时期的谢拉、法比亚娜、玛丽安妮、帕乌拉、法比）、10年的俄罗斯（成熟的加莫娃+索科洛娃+科舍列娃），中国队现在看起来并没有达到这一高度。在新的奥运周期里，我们还要面临其他几支强队的冲击。<br><br>最近也可以注意到，女排的关注度确实越来越大，商业广告接的很多。一方面是女排成绩的提升，还有一方面是郎平强大的影响力带来的效果。我们父母那一代，即使完全不关注排球的人都知道女排五连冠，提到郎平几乎人人都能想起“铁榔头”这个称号，这种深远的影响是其他女排教练没有的，即使陈忠和也差得远。希望以郎平的影响力和女排成绩的改善，能真正将国内的女排联赛搞起来，只有高水平的联赛，才能为国家队提供源源不断的、稳定有力的输血。<br><br>再次祝贺中国队！太激动了！！
+                                                </script>
+                                                <a class="time" href="/question/49843888/answer/118040554">2016-08-21</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                                <div class="item-footer js-contentActions">
+                                    <ul class="item-actions">
+                                        <li class="hidden-tablet hidden-desktop">
+                                            <button class="button-text vote-num js-openVoteDialog">
+                                                <span data-bind-votecount>2571</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="button-text follow unfollowing" data-follow="q:fi:button" data-id="12154235">
+                                                <i class="fi fi-follow"></i>
+                                                <span class="label">关注</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="button-text comment js-toggleCommentBox toggle-comment">
+                                                <i class="fi fi-comment"></i>
+                                                <span class="label">115 条评论</span>
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <button class="button-text auto-hide js-thank ">
+                                                <i class="fi fi-thank"></i>
+                                                感谢
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <button class="button-text auto-hide js-share">
+                                                <i class="fi fi-share"></i>
+                                                分享
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <button class="button-text auto-hide js-collect">
+                                                <i class="fi fi-fav"></i>
+                                                收藏
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <button class="button-text auto-hide js-report">
+                                                <i class="fi fi-report"></i>
+                                                举报
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <meta name="copyrightStatus" content="0">
+                                            <meta name="disableCopyAvatar" content="https://pic1.zhimg.com/d173f156604a2c85c841b052c1e8ec1c_m.jpg">
+                                            <meta name="own" content="true">
+                                            <a href="/terms#sec-licence-6" target="_blank" class="action-item js-copyright">禁止转载</a>
+                                        </li>
+                                        <li class="hidden-phone item-collapse js-collapse">
+                                            <button class="button-text">
+                                                <i class="sprite-global-icon-fold-round-default"></i>
+                                                收起
+                                            </button>
+                                        </li>
+                                        <li class="hidden-tablet hidden-desktop phone-actions">
+                                            <button class="button-text menubutton">
+                                                <i class="fi fi-3-dot"></i>
+                                                更多
+                                            </button>
+                                            <div class="menu goog-menu goog-menu-vertical zh-answer-more-actions" style="display:none">
+                                                <div class="goog-menuitem js-share">分享</div>
+                                                <div class="goog-menuseparator"></div>
+                                                <div class="goog-menuitem js-collect">收藏</div>
+                                                <div class="goog-menuseparator"></div>
+                                                <div class="goog-menuitem js-thank ">感谢</div>
+                                                <div class="goog-menuseparator"></div>
+                                                <div class="goog-menuitem js-report">举报</div>
+                                                <div class="goog-menuseparator"></div>
+                                                <div class="goog-menuitem">
+                                                    <meta name="copyrightStatus" content="0">
+                                                    <meta name="disableCopyAvatar" content="https://pic1.zhimg.com/d173f156604a2c85c841b052c1e8ec1c_m.jpg">
+                                                    <a href="/terms#sec-licence-6" target="_blank" class="js-copyright">禁止转载</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="item" data-type="Answer">
+                                <a class="zg-anchor-hidden" name="answer-42682879"></a>
+                                <link itemprop="url" href="/question/49832009/answer/117993330">
+                                <meta itemprop="question-id" content="12149486">
+                                <meta itemprop="question-url-token" content="49832009">
+                                <meta itemprop="answer-id" content="42682879">
+                                <meta itemprop="answer-url-token" content="117993330">
+                                <div class="item-header">
+                                    <h2 class="item-title">
+                                        <a class="js-title-link" target="_blank" href="/question/49832009/answer/117993330">如何评价谌龙战胜李宗伟获得里约奥运会男单冠军？</a>
+                                    </h2>
+                                </div>
+                                <article class="entry answer">
+                                    <div class="entry-left hidden-phone">
+                                        <a class="rating hidden-expanded js-expand js-vote-count" data-bind-votecount>5178</a>
+                                        <div class="votebar visible-expanded">
+                                            <button class="up " title="赞同">
+                                                <i class="fi-voteup-arrow"></i>
+                                                <span class="count">5178</span>
+                                                <span class="sr-only">赞同</span>
+                                            </button>
+                                            <button class="down" title="反对，不会显示你的姓名">
+                                                <i class="fi-votedown-arrow"></i>
+                                                <span class="sr-only">反对，不会显示你的姓名</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="entry-body">
+                                        <div class="entry-meta">
+                                            <strong class="author-line">
+                                                <a class="author" href="/people/tang-qi-cheng" data-hovercard='p$t$tang-qi-cheng'>唐启承</a>
+                                            </strong>
+                                        </div>
+                                        <div class="entry-content js-collapse-body" data-author-name="唐启承" data-entry-url="/question/49832009/answer/117993330">
+                                            <div class="summary hidden-expanded js-expand">
+                                                看到上面有人说，李宗伟输给谌龙是输给了时间，我觉得我不能同意。<b>是情怀，但不是事实</b>
+                                                。 李宗伟的全盛时期大概是2011~2012年。那两年，除了林谌二人之外，几乎所有人碰到李宗伟，大部分情况下都只是被0:2结束比赛，而往往是被悬殊比分横扫。我记得那年（201…<a class="toggle-expand inline" href="/question/49832009/answer/117993330">显示全部</a>
+                                            </div>
+                                            <div class="visible-expanded">
+                                                <div class="zm-item-vote-info" data-votecount="5178">
+                                                    <span class="voters">
+                                                        <span class="member">
+                                                            <a href="/people/li-mao-83-10" data-hovercard='p$t$li-mao-83-10'>李Mao</a>
+                                                            <span>、</span>
+                                                        </span>
+                                                        <span class="member">
+                                                            <a href="/people/zhang-zheng-rong-62" data-hovercard='p$t$zhang-zheng-rong-62'>贝加尔湖</a>
+                                                            <span>、</span>
+                                                        </span>
+                                                        <span class="member">
+                                                            <a href="/people/liu-zhi-ma-67" data-hovercard='p$t$liu-zhi-ma-67'>刘芝麻</a>
+                                                        </span>
+                                                    </span>
+                                                    <a class="more">等人赞同</a>
+                                                </div>
+                                                <script type="text" class="content">
+                                                    看到上面有人说，李宗伟输给谌龙是输给了时间，我觉得我不能同意。<b>是情怀，但不是事实</b>。<br><br>李宗伟的全盛时期大概是2011~2012年。那两年，除了林谌二人之外，几乎所有人碰到李宗伟，大部分情况下都只是被0:2结束比赛，而往往是被悬殊比分横扫。我记得那年（2011年）世锦赛Peter Gade还可以和林丹打满三局，但那之前上半年的一场公开赛Peter Gade被李宗伟打到绝望。<br><br>李宗伟2011年之前的状态是什么样呢？<a href="tel:2007-2008">2007-2008</a>年李宗伟开始真正展露头角，在国际羽坛和林丹分庭抗礼，而这个时期陶菲克逐渐走下神坛。李之前只有稳拿马来西亚公开赛的冠军，其他的冠军都不像10年之后那么多（也是在10年之后李宗伟才成为公开赛之王）。2008年的李宗伟，步伐好（那时候步伐最好的选手是李宗伟和韩国的李炫一），突击爆发力强（他自己承认这是自己的天赋，一般人没有），假动作灵活多变（东南亚选手的特性），头顶劈杀对角隐蔽性特别强，对手根本不知道他要杀直线还是对角线——这也是李宗伟的杀手锏，中国羽毛球队针对李宗伟的这一技术对球员针对性训练了很长时间。但2008年的李宗伟毕竟太瘦小——如果你去看那个时候的李宗伟的照片的话，谁都不敢想象这么瘦的球员能有这么强大的技术。而2008年的林丹是我认为至今为止最强的林丹——真正无解的林丹。那年的林丹极度渴望得到2008年的冠军，极度的苛责使他整个人在心理，技术，身体上达到了极致。2008年的林丹有点像骑士1.0时期的勒布朗詹姆斯，即使用身体就足以杀死对手，赢得比赛。看过2008年北京奥运会的决赛的朋友们都知道，李宗伟被林丹打的怀疑人生。这固然有主场优势，但林丹本身也是极致强大的，就算换一个主场，他也完全能拿那一年的冠军（*李宗伟后来在马来西亚记者采访的时候反复说他前一天晚上没睡好...）。用以佐证的是林丹这个状态一直延续到2009年，在2009年的全英公开赛林丹依旧佛挡杀佛，什么球好像都可以一步跳起扣死对手，李宗伟在决赛上的得分手段只有诡异的防守+林丹的失误，最后也只有早早失败。<br><br>2009年之后的李宗伟，意识到自己力量的缺失，开始疯狂地训练力量。从2009,2010,2011，他的肌肉一年比一年大，从以前的短袖球衣一直到无袖球衣，整个人像是膨胀了起来。2010年他的战绩已经很不错了，虽然在那一年的亚运会输给了林丹；到了2011（我一直认为2011年是有史以来最强的李宗伟），他在秋季的世锦赛之前只输过一场，然后2011年的男单决赛和林丹奉献了被称为有史以来最精彩的羽毛球比赛。（B站链接——<a href="//link.zhihu.com/?target=http%3A//www.bilibili.com/video/av683280/" class=" wrap external" target="_blank" rel="nofollow noreferrer">【720P】不科学的羽毛球赛【全程高能】<i class="icon-external"></i></a>）两位选手都在自己的巅峰期—此时的林丹亦是转型之后的巅峰林丹（增强了拉吊）。<br><br><b>但2011年的谌龙，已经完全可以威胁到李宗伟了。</b> 谌龙1989年生，李宗伟1982年生，2011年谌龙22，李宗伟29。完全可以说2011年谌龙还没有技术成型、成熟，2011年的李宗伟已经在个人的羽球生涯走到了巅峰。如果你去看一下2011年的世界羽联总决赛谌龙2:1李宗伟的那一局，谌龙让李宗伟疲惫不堪，打得极其吃力，而这一年的年初，李宗伟还可以轻松解决谌龙。估计李宗伟也很惊讶，为什么这个中国的小伙子进步如此神速？谌龙身高臂长，基本功扎实，突击爆发力没有林李好（所以有人诟病他打球不好看），但本来杀球这种东西，虽然对手很难防守，但失误率高，对体能要求大，是一把双刃剑。谌龙有最强的盾，完全可以防住两位前辈的尖兵利器。不过这时候的谌龙太容易被杀追身——这也是2012年奥运会谌龙输李宗伟的原因，你可以看到2016年的奥运会，谌龙已经完全不吃追身杀球了。我们可以得到这样的结论：<b>巅峰期的李宗伟，在面对菜鸟谌龙已经很吃力了，这完全是因为谌龙的强大，但很多人不愿意承认这一点。</b><br><br><br>2012年之后，李宗伟对谌龙已经输多胜少了。除了一次全英，还有几次公开赛，在两次世锦赛上被谌龙完全压制。在2012年之后，觉得李宗伟每赢谌龙一场，都值得庆祝很久，而谌龙赢李宗伟，似乎已经是家常便饭。很多人因此而愤愤不平，觉得谌龙破坏了他们的美梦。这完全是<b>因为谌龙的攻防两端越来越优秀，没有运气，没有情怀，完全是谌龙自己实力的进化</b>。我知道，像我们这种看球很久的羽毛球球迷，还是沉浸在林李二人称霸羽林的幻想中，突然跑进来谌龙这样一个搅局者，本能地会觉得排斥。但你必须要承认谌龙的强大，无论他性格多么的不张扬，多么的内敛，你必须要承认<b>他已经跻身人类历史最优秀羽毛球手之一这样一个事实</b>。虽然我们毫无疑问地会说林丹是有史以来最强的羽毛球手，但谌龙现在身为一个两届世锦赛冠军获得者，一届奥运会冠军获得者，已经在追逐前辈的步伐了。<br><br>我还想多说一件事，就是李宗伟2014年的禁药事件。这个事情很敏感，无论李宗伟是否服了禁药，我觉得很多人对于这件事情看得太不重。我认为，<b>体育道德要远高于体育结果。 </b>谌龙赢一场比赛，输一场比赛，都要得到极大的谩骂，侮辱，嘲讽，他却行的正，走的直。我们不能在看待李宗伟的时候，忽视他可能服过禁药这一事实。每一个运动员，都应在规则允许的情况下，获得自己的荣誉。希望事实上李宗伟并没有服用禁药，给自己的职业生涯一个圆满的交代。<br><br>我觉得现在很多人都在为李宗伟惋惜，甚至很多人都隐隐希望决赛李宗伟赢。每次李宗伟到中国打球，球迷都是震天忽地地为他加油。我觉得，支持或者喜欢一个球员，是自己的事情，旁人没有过问的权利。但我们此时应该<b>更为谌龙祝贺</b>，而不是应该把注意力过多地为李宗伟惋惜。<b>谌龙拿到冠军，不是因为运气好，不是因为年轻，更不是因为李宗伟老了，这件事，从头到尾完完全全，是出于谌龙自己的优秀，谌龙用自己的实力打出了这个世界冠军，证明自己比李宗伟更强，更正气，这样的谌龙，不要说巅峰李宗伟了，即使巅峰林丹也未尝不可一战，祝贺谌龙！</b><br><br><img src="https://pic2.zhimg.com/cbba96f6f61200fb810429e00db71309_b.jpg" data-rawwidth="570" data-rawheight="384" class="origin_image zh-lightbox-thumb" width="570" data-original="https://pic2.zhimg.com/cbba96f6f61200fb810429e00db71309_r.jpg"><br>最后附上谌龙微博图两张：<br><img src="https://pic1.zhimg.com/5c82173ee3665ba9ac3a53d564899f10_b.png" data-rawwidth="604" data-rawheight="113" class="origin_image zh-lightbox-thumb" width="604" data-original="https://pic1.zhimg.com/5c82173ee3665ba9ac3a53d564899f10_r.png"><img src="https://pic1.zhimg.com/8a98067dca94b65829c88f10ab916c08_b.png" data-rawwidth="495" data-rawheight="202" class="origin_image zh-lightbox-thumb" width="495" data-original="https://pic1.zhimg.com/8a98067dca94b65829c88f10ab916c08_r.png"><b>成功没有偶然。</b><br><br><br><b>----------------------</b><br><br>没想到这个答案得到那么多人的关注，所以里面一些偏主观的意见我稍作了修改。我们每个人对这些事都有自己的判断。李宗伟确实是一位伟大的运动员，从李永波专程飞马来西亚参加他的婚礼就能看出他的份量。只是我们每一个体育爱好者，在媒体铺天盖地的宣传引导之外，要通过自己的眼睛来判断事实。热情+理性，才是一个成熟的体育爱好者的表现。我也不认为一定要"多看比赛"才能显示"专业"。本来每个人生活都很辛苦了，何必要在这种小事上再比个高下？这篇答案也只是作业余的消遣，诸君尚且当作茶余饭后的谈资即可。
+                                                </script>
+                                                <a class="time" href="/question/49832009/answer/117993330">2016-08-21</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                                <div class="item-footer js-contentActions">
+                                    <ul class="item-actions">
+                                        <li class="hidden-tablet hidden-desktop">
+                                            <button class="button-text vote-num js-openVoteDialog">
+                                                <span data-bind-votecount>5178</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="button-text follow unfollowing" data-follow="q:fi:button" data-id="12149486">
+                                                <i class="fi fi-follow"></i>
+                                                <span class="label">关注</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="button-text comment js-toggleCommentBox toggle-comment">
+                                                <i class="fi fi-comment"></i>
+                                                <span class="label">668 条评论</span>
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <button class="button-text auto-hide js-thank ">
+                                                <i class="fi fi-thank"></i>
+                                                感谢
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <button class="button-text auto-hide js-share">
+                                                <i class="fi fi-share"></i>
+                                                分享
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <button class="button-text auto-hide js-collect">
+                                                <i class="fi fi-fav"></i>
+                                                收藏
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <button class="button-text auto-hide js-report">
+                                                <i class="fi fi-report"></i>
+                                                举报
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <meta name="copyrightStatus" content="1">
+                                            <meta name="disableCopyAvatar" content="https://pic3.zhimg.com/8ac8d339a2af2540390cdb034f16650a_m.jpg">
+                                            <meta name="own" content="true">
+                                            <a href="/terms#sec-licence-1" target="_blank" class="action-item js-copyright">作者保留权利</a>
+                                        </li>
+                                        <li class="hidden-phone item-collapse js-collapse">
+                                            <button class="button-text">
+                                                <i class="sprite-global-icon-fold-round-default"></i>
+                                                收起
+                                            </button>
+                                        </li>
+                                        <li class="hidden-tablet hidden-desktop phone-actions">
+                                            <button class="button-text menubutton">
+                                                <i class="fi fi-3-dot"></i>
+                                                更多
+                                            </button>
+                                            <div class="menu goog-menu goog-menu-vertical zh-answer-more-actions" style="display:none">
+                                                <div class="goog-menuitem js-share">分享</div>
+                                                <div class="goog-menuseparator"></div>
+                                                <div class="goog-menuitem js-collect">收藏</div>
+                                                <div class="goog-menuseparator"></div>
+                                                <div class="goog-menuitem js-thank ">感谢</div>
+                                                <div class="goog-menuseparator"></div>
+                                                <div class="goog-menuitem js-report">举报</div>
+                                                <div class="goog-menuseparator"></div>
+                                                <div class="goog-menuitem">
+                                                    <meta name="copyrightStatus" content="1">
+                                                    <meta name="disableCopyAvatar" content="https://pic3.zhimg.com/8ac8d339a2af2540390cdb034f16650a_m.jpg">
+                                                    <a href="/terms#sec-licence-1" target="_blank" class="js-copyright">作者保留权利</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="item" data-type="Answer">
+                                <a class="zg-anchor-hidden" name="answer-42767677"></a>
+                                <link itemprop="url" href="/question/49870437/answer/118204597">
+                                <meta itemprop="question-id" content="12164871">
+                                <meta itemprop="question-url-token" content="49870437">
+                                <meta itemprop="answer-id" content="42767677">
+                                <meta itemprop="answer-url-token" content="118204597">
+                                <div class="item-header">
+                                    <h2 class="item-title">
+                                        <a class="js-title-link" target="_blank" href="/question/49870437/answer/118204597">2016 里约奥运会闭幕式的「东京八分钟」有何惊艳之处？</a>
+                                    </h2>
+                                </div>
+                                <article class="entry answer">
+                                    <div class="entry-left hidden-phone">
+                                        <a class="rating hidden-expanded js-expand js-vote-count" data-bind-votecount>2552</a>
+                                        <div class="votebar visible-expanded">
+                                            <button class="up " title="赞同">
+                                                <i class="fi-voteup-arrow"></i>
+                                                <span class="count">2552</span>
+                                                <span class="sr-only">赞同</span>
+                                            </button>
+                                            <button class="down" title="反对，不会显示你的姓名">
+                                                <i class="fi-votedown-arrow"></i>
+                                                <span class="sr-only">反对，不会显示你的姓名</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="entry-body">
+                                        <div class="entry-meta">
+                                            <strong class="author-line">
+                                                <a class="author" href="/people/wheeloffortune" data-hovercard='p$t$wheeloffortune'>輪流轉</a>
+                                                ，<span title="Let's sing it out of love." class="bio">Let's sing it out of love.</span>
+                                            </strong>
+                                        </div>
+                                        <div class="entry-content js-collapse-body" data-author-name="輪流轉" data-entry-url="/question/49870437/answer/118204597">
+                                            <div class="summary hidden-expanded js-expand">
+                                                <b>转载请私信并注明出处，谢谢。</b>
+                                                日本把目光放远未来，不断寻求日本和里约的联系。 简单罗列惊艳之处，文字如果说得太彻底也不太好。 不仅将<b>RIO</b>
+                                                于日语"谢谢 ありがとう A<b>RI</b>
+                                                GAT<b>O</b>
+                                                U"联系、更于经典游戏人物马里奥的名字"MA<b>RIO</b>
+                                                "联系起来；宣传视频中大胆运用黑红…<a class="toggle-expand inline" href="/question/49870437/answer/118204597">显示全部</a>
+                                            </div>
+                                            <div class="visible-expanded">
+                                                <div class="zm-item-vote-info" data-votecount="2552">
+                                                    <span class="voters">
+                                                        <span class="member">
+                                                            <a href="/people/tian-si-qing-yuan" data-hovercard='p$t$tian-si-qing-yuan'>天赐情愿</a>
+                                                            <span>、</span>
+                                                        </span>
+                                                        <span class="member">
+                                                            <a href="/people/gossipgirl918" data-hovercard='p$t$gossipgirl918'>琪琪-Vivian</a>
+                                                            <span>、</span>
+                                                        </span>
+                                                        <span class="member">
+                                                            <a href="/people/xisailuo" data-hovercard='p$t$xisailuo'>xisailuo</a>
+                                                        </span>
+                                                    </span>
+                                                    <a class="more">等人赞同</a>
+                                                </div>
+                                                <script type="text" class="content">
+                                                    <b>转载请私信并注明出处，谢谢。</b><br><br>日本把目光放远未来，不断寻求日本和里约的联系。<br>简单罗列惊艳之处，文字如果说得太彻底也不太好。<br><br>不仅将<b>RIO</b>于日语"谢谢 ありがとう A<b>RI</b>GAT<b>O</b>U"联系、更于经典游戏人物马里奥的名字"MA<b>RIO</b>"联系起来；宣传视频中大胆运用黑红色调，并把经典和代表建筑比作为运动器材，于运动员相衬；特邀最具日本文化特色的歌手椎名林檎、和在海外具有广大影响力的日本组合Perfume团队中的制作人中田康孝、编舞老师MIKIKO和特效技术师真锅大度。同时也不忘卖萌让首相玩Cosplay，在多元素环境下展现出现代日本的科技以及文化。<br><br>也不要再拿本次日本的8分钟与04年中国的茉莉花相比较了，科技和文化本来就是不断进步的。<br><br>PS: 帮题主上车，安倍的手表是OMEGA的，但我不懂行，不清楚型号。<br><br>视频地址：<a href="//link.zhihu.com/?target=http%3A//weibo.com/p/23044468b656ba75d013d96444f6a10333a90f" class=" wrap external" target="_blank" rel="nofollow noreferrer">微博视频<i class="icon-external"></i></a><br><br><br><b>BGM：</b><br><img src="https://pic3.zhimg.com/6f1844f4dc28cdaeb814f7dfab8999fe_b.jpg" data-rawwidth="1000" data-rawheight="500" class="origin_image zh-lightbox-thumb" width="1000" data-original="https://pic3.zhimg.com/6f1844f4dc28cdaeb814f7dfab8999fe_r.jpg">(0:00-1:40) 日本国歌「君が代 (君之代)」<br>(1:46-2:36) 椎名林檎「ちちんぷいぷい (痛痛飞走了)」<br>(2:40-3:30) H ZETTRIO「Neo Japanesque」&amp;「Get Happy!」<br>(3:50-6:55) 中田ヤスタカ(中田康孝)「1620」<br>(6:55-9:30) 椎名林檎「望遠鏡の外の景色 (望远镜之外的景色)」<br>以及超级马里奥和拳王等游戏配乐等<br><a href="//link.zhihu.com/?target=https%3A//www.buzzfeed.com/tatsunoritokushige/ringoegg%3Futm_term%3D.gh0lomk8%23.akaEeQwa" class=" wrap external" target="_blank" rel="nofollow noreferrer">【リオ五輪】椎名林檎が五輪の舞台であえて使った「あの曲」その意図は<i class="icon-external"></i></a><br><br>感谢评论中 <a data-hash="5cad700ca16a4aafba0c38d60614386c" href="//www.zhihu.com/people/5cad700ca16a4aafba0c38d60614386c" class="member_mention" data-editable="true" data-title="@HBkunn" data-hovercard="p$b$5cad700ca16a4aafba0c38d60614386c">@HBkunn</a> 补充曲目!!<br>＊简直就是東京事変专场，中田老司机客串打碟。目前官方给了N次暗示了.... 椎名林檎在今年的粉丝会员笔记本最后一页写着「2O2O 東京事変」还在采访中留下一句「希望在2020年之前，東京事変的成员们都不要变成废人喔！」这样的话.... 具体会是如何还是等官方通告。<br><img src="https://pic2.zhimg.com/7acda9ff940050ab2351c78933ca3261_b.jpg" data-rawwidth="1000" data-rawheight="500" class="origin_image zh-lightbox-thumb" width="1000" data-original="https://pic2.zhimg.com/7acda9ff940050ab2351c78933ca3261_r.jpg"><br><br><b>编舞：</b><br><img src="https://pic3.zhimg.com/a29b1b0b5a8197efa3e136fa91e4e74e_b.jpg" data-rawwidth="1000" data-rawheight="500" class="origin_image zh-lightbox-thumb" width="1000" data-original="https://pic3.zhimg.com/a29b1b0b5a8197efa3e136fa91e4e74e_r.jpg">MIKIKO (日本电音组合Perfume团队的编舞老师)<br><a href="//link.zhihu.com/?target=http%3A//www.bilibili.com/video/av3489112/" class=" wrap external" target="_blank" rel="nofollow noreferrer">第66回NHK紅白歌合戦 椎名林檎LIVE_三次元音乐<i class="icon-external"></i></a><br><a href="//link.zhihu.com/?target=http%3A//www.bilibili.com/video/av2450341/" class=" wrap external" target="_blank" rel="nofollow noreferrer">【PerfumeANY字幕组】再次感受日本的魅力 人气编舞导演MIKIKO的起源<i class="icon-external"></i></a><br><br><br><b>特效：</b><br><img src="https://pic2.zhimg.com/8e4fe005ab88b495f2b3b76036fd97a5_b.jpg" data-rawwidth="1000" data-rawheight="500" class="origin_image zh-lightbox-thumb" width="1000" data-original="https://pic2.zhimg.com/8e4fe005ab88b495f2b3b76036fd97a5_r.jpg">真鍋大度 (日本电音组合Perfume团队的AR特效技术家)<br><a href="//link.zhihu.com/?target=http%3A//mp.weixin.qq.com/s%3F__biz%3DMjM5NDQ0ODYwMA%3D%3D%26mid%3D206391554%26idx%3D1%26sn%3D623202a672b5e2bb5b8543773c9ea695%26scene%3D1%26key%3Dc468684b929d2be2bfc2fbc9c03ed32085092fa397553c4083055f08de3b4fb4919b76e424a8c2ae4a42e546f5a0d180%26ascene%3D0%26uin%3DMjE2NDc5MTUyMQ%253D%253D%26devicetype%3DiMac%2BMacBookPro9%252C2%2BOSX%2BOSX%2B10.10.3%2Bbuild%2814D136%29%26version%3D11020012%26pass_ticket%3DkWEHh4QwlpjcAgaxN4sJQf0kAiEpAXgqL0WQft4go903nlUkb8TTXXXJoQZeruYW" class=" wrap external" target="_blank" rel="nofollow noreferrer">Perfume × 真锅大度｜ 数字艺术家的舞台冒险<i class="icon-external"></i></a><br><a href="//link.zhihu.com/?target=http%3A//www.bilibili.com/video/av1999199/" class=" wrap external" target="_blank" rel="nofollow noreferrer">【现实与虚幻的完美融合】用高科技打破次元壁的电音女团Perfume（更新至11P_机械<i class="icon-external"></i></a><br><a href="//link.zhihu.com/?target=http%3A//www.bilibili.com/video/av5157032/" class=" wrap external" target="_blank" rel="nofollow noreferrer">【Perfume】STORY(SXSW-MIX)中文字幕<i class="icon-external"></i></a><br><a href="//link.zhihu.com/?target=http%3A//www.bilibili.com/video/av3487575/" class=" wrap external" target="_blank" rel="nofollow noreferrer">【Perfume】Pick Me Up[第66回NHK红白歌会]_三次元音乐<i class="icon-external"></i></a><br>强制安利这几个Live，现场特效很惊艳<br><br><br><b>动漫：<br></b><img src="https://pic3.zhimg.com/1157294e50640a942ec5820907f7213e_b.jpg" data-rawwidth="1000" data-rawheight="500" class="origin_image zh-lightbox-thumb" width="1000" data-original="https://pic3.zhimg.com/1157294e50640a942ec5820907f7213e_r.jpg">哆啦A梦、足球小将和Hello Kitty<br><br>不要再问为什么没有皮卡丘了 Cuz everybody knows Pikachu. <br>也不要再问哆啦A梦为什么不拿任意门了，肯定又拿去修理了。<br><br><br><b>游戏：</b><br><img src="https://pic4.zhimg.com/b5caa2fdf770d527c73b0ecfe889246b_b.jpg" data-rawwidth="1000" data-rawheight="500" class="origin_image zh-lightbox-thumb" width="1000" data-original="https://pic4.zhimg.com/b5caa2fdf770d527c73b0ecfe889246b_r.jpg">吃豆子和超级马里奥<br><br><br><b>标志建筑：<br></b><img src="https://pic2.zhimg.com/72c231367247420f8a2042a36887f761_b.jpg" data-rawwidth="1000" data-rawheight="500" class="origin_image zh-lightbox-thumb" width="1000" data-original="https://pic2.zhimg.com/72c231367247420f8a2042a36887f761_r.jpg">东京铁塔<br><img src="https://pic1.zhimg.com/fa670be220aa266ff2dcb156fd2c2318_b.jpg" data-rawwidth="1000" data-rawheight="500" class="origin_image zh-lightbox-thumb" width="1000" data-original="https://pic1.zhimg.com/fa670be220aa266ff2dcb156fd2c2318_r.jpg">新干线（特地使用E6系的红白配色）<br><img src="https://pic4.zhimg.com/dbe6124bd9162907131c2b8450fb6bd3_b.jpg" data-rawwidth="1000" data-rawheight="500" class="origin_image zh-lightbox-thumb" width="1000" data-original="https://pic4.zhimg.com/dbe6124bd9162907131c2b8450fb6bd3_r.jpg">东京港临海大桥（恐龙桥）<br><img src="https://pic3.zhimg.com/39254791fe4ff683b20141938cb2bb46_b.jpg" data-rawwidth="1000" data-rawheight="500" class="origin_image zh-lightbox-thumb" width="1000" data-original="https://pic3.zhimg.com/39254791fe4ff683b20141938cb2bb46_r.jpg">隅田川夜景（蓝色的是驹形桥、红色的是吾妻桥.... 共有16座桥）<br><img src="https://pic1.zhimg.com/1b6c59342b26796f2391f372756d74c4_b.jpg" data-rawwidth="1000" data-rawheight="500" class="origin_image zh-lightbox-thumb" width="1000" data-original="https://pic1.zhimg.com/1b6c59342b26796f2391f372756d74c4_r.jpg">天空树<br><img src="https://pic2.zhimg.com/78ac5aaf2f3c261a9b808cc077e9c0e9_b.jpg" data-rawwidth="1000" data-rawheight="500" class="origin_image zh-lightbox-thumb" width="1000" data-original="https://pic2.zhimg.com/78ac5aaf2f3c261a9b808cc077e9c0e9_r.jpg">彩虹大桥<br><img src="https://pic4.zhimg.com/357c81061b2b9ad849eebd26a378b3ab_b.jpg" data-rawwidth="1000" data-rawheight="500" class="origin_image zh-lightbox-thumb" width="1000" data-original="https://pic4.zhimg.com/357c81061b2b9ad849eebd26a378b3ab_r.jpg">浅草寺<br><img src="https://pic1.zhimg.com/d34d73530e557cf87a78ad071a6150e0_b.jpg" data-rawwidth="1000" data-rawheight="500" class="origin_image zh-lightbox-thumb" width="1000" data-original="https://pic1.zhimg.com/d34d73530e557cf87a78ad071a6150e0_r.jpg">东京车站<br><img src="https://pic2.zhimg.com/52ae64eefc93c95f4a4d0bf0443fa771_b.jpg" data-rawwidth="1000" data-rawheight="500" class="origin_image zh-lightbox-thumb" width="1000" data-original="https://pic2.zhimg.com/52ae64eefc93c95f4a4d0bf0443fa771_r.jpg">歌舞伎座（不是歌舞伎町.... 是一个剧场）<br><img src="https://pic3.zhimg.com/f74d49d890d3a7f81b1222bc56f5f0be_b.jpg" data-rawwidth="1000" data-rawheight="500" class="origin_image zh-lightbox-thumb" width="1000" data-original="https://pic3.zhimg.com/f74d49d890d3a7f81b1222bc56f5f0be_r.jpg">樱花<br><img src="https://pic2.zhimg.com/a6b59faea66dca1de9c0a07e15a9a1a9_b.jpg" data-rawwidth="1000" data-rawheight="500" class="origin_image zh-lightbox-thumb" width="1000" data-original="https://pic2.zhimg.com/a6b59faea66dca1de9c0a07e15a9a1a9_r.jpg">富士山<br><br>宣传视频简直就是一部旅游观光片！！！<br><br><br><b>运动员（感谢评论补充和解说识别，我是一个都不认识）：</b><br><img src="https://pic1.zhimg.com/b9207754bd3fc1491ec327b432a52ddc_b.jpg" data-rawwidth="1000" data-rawheight="500" class="origin_image zh-lightbox-thumb" width="1000" data-original="https://pic1.zhimg.com/b9207754bd3fc1491ec327b432a52ddc_r.jpg">日本蛙王－北島康介<br><img src="https://pic3.zhimg.com/1ee2c0715e1fabb75eaa55f58d706586_b.jpg" data-rawwidth="1000" data-rawheight="500" class="origin_image zh-lightbox-thumb" width="1000" data-original="https://pic3.zhimg.com/1ee2c0715e1fabb75eaa55f58d706586_r.jpg">长跑女神－高橋尚子<br><img src="https://pic4.zhimg.com/53d2cdcde6fbe8738266edd821af6bc7_b.jpg" data-rawwidth="1000" data-rawheight="500" class="origin_image zh-lightbox-thumb" width="1000" data-original="https://pic4.zhimg.com/53d2cdcde6fbe8738266edd821af6bc7_r.jpg">拳击冠军－村田凉太<br><br><br><b>友情客串：</b><br><img src="https://pic4.zhimg.com/c20ff414640a2ea8120e6349be04db43_b.jpg" data-rawwidth="1000" data-rawheight="500" class="origin_image zh-lightbox-thumb" width="1000" data-original="https://pic4.zhimg.com/c20ff414640a2ea8120e6349be04db43_r.jpg">AyaBambi<br>有人不认识，就科普一下好了：<br>她们是麦当娜Madonna的御用Dancer，是一对女同性恋情侣，目前已结婚。<br>之前她们是椎名林檎的Dancer啦，后来被Madonna抢走了，去年红白歌会战的时候回来帮林檎撑腰了。虽然出现了不到几秒，但深层次的含义估计也表达出来了——日本政府力撑LGBT群体。<br><img src="https://pic3.zhimg.com/ae15987365561d46948de3d1947fce02_b.png" data-rawwidth="500" data-rawheight="500" class="origin_image zh-lightbox-thumb" width="500" data-original="https://pic3.zhimg.com/ae15987365561d46948de3d1947fce02_r.png"><br><br><img src="https://pic4.zhimg.com/c7c1344637eb2381f265e62df783aaeb_b.jpg" data-rawwidth="1000" data-rawheight="500" class="origin_image zh-lightbox-thumb" width="1000" data-original="https://pic4.zhimg.com/c7c1344637eb2381f265e62df783aaeb_r.jpg">安倍晋三 cos超级马里奥<br><br><br>喔 还顺便cos了平井坚<br><img src="https://pic4.zhimg.com/df7e7ebc8e2bfd1aa5e539809e0a291f_b.jpg" data-rawwidth="1000" data-rawheight="504" class="origin_image zh-lightbox-thumb" width="1000" data-original="https://pic4.zhimg.com/df7e7ebc8e2bfd1aa5e539809e0a291f_r.jpg">（此梗来源微博 <a href="//link.zhihu.com/?target=http%3A//weibo.com/1677876712/E4Hq8gbeN%3Ffrom%3Dpage_1005051677876712_profile%26wvr%3D6%26mod%3Dweibotime%26type%3Dcomment" class=" wrap external" target="_blank" rel="nofollow noreferrer">顺手制作封面一枚   来自口达酷米<i class="icon-external"></i></a>）
+                                                </script>
+                                                <a class="time" href="/question/49870437/answer/118204597">2016-08-22</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                                <div class="item-footer js-contentActions">
+                                    <ul class="item-actions">
+                                        <li class="hidden-tablet hidden-desktop">
+                                            <button class="button-text vote-num js-openVoteDialog">
+                                                <span data-bind-votecount>2552</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="button-text follow unfollowing" data-follow="q:fi:button" data-id="12164871">
+                                                <i class="fi fi-follow"></i>
+                                                <span class="label">关注</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="button-text comment js-toggleCommentBox toggle-comment">
+                                                <i class="fi fi-comment"></i>
+                                                <span class="label">348 条评论</span>
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <button class="button-text auto-hide js-thank ">
+                                                <i class="fi fi-thank"></i>
+                                                感谢
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <button class="button-text auto-hide js-share">
+                                                <i class="fi fi-share"></i>
+                                                分享
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <button class="button-text auto-hide js-collect">
+                                                <i class="fi fi-fav"></i>
+                                                收藏
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <button class="button-text auto-hide js-report">
+                                                <i class="fi fi-report"></i>
+                                                举报
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <meta name="copyrightStatus" content="0">
+                                            <meta name="disableCopyAvatar" content="https://pic3.zhimg.com/2a326ef610cf821b45ee3ebb2f402276_m.jpg">
+                                            <meta name="own" content="true">
+                                            <a href="/terms#sec-licence-6" target="_blank" class="action-item js-copyright">禁止转载</a>
+                                        </li>
+                                        <li class="hidden-phone item-collapse js-collapse">
+                                            <button class="button-text">
+                                                <i class="sprite-global-icon-fold-round-default"></i>
+                                                收起
+                                            </button>
+                                        </li>
+                                        <li class="hidden-tablet hidden-desktop phone-actions">
+                                            <button class="button-text menubutton">
+                                                <i class="fi fi-3-dot"></i>
+                                                更多
+                                            </button>
+                                            <div class="menu goog-menu goog-menu-vertical zh-answer-more-actions" style="display:none">
+                                                <div class="goog-menuitem js-share">分享</div>
+                                                <div class="goog-menuseparator"></div>
+                                                <div class="goog-menuitem js-collect">收藏</div>
+                                                <div class="goog-menuseparator"></div>
+                                                <div class="goog-menuitem js-thank ">感谢</div>
+                                                <div class="goog-menuseparator"></div>
+                                                <div class="goog-menuitem js-report">举报</div>
+                                                <div class="goog-menuseparator"></div>
+                                                <div class="goog-menuitem">
+                                                    <meta name="copyrightStatus" content="0">
+                                                    <meta name="disableCopyAvatar" content="https://pic3.zhimg.com/2a326ef610cf821b45ee3ebb2f402276_m.jpg">
+                                                    <a href="/terms#sec-licence-6" target="_blank" class="js-copyright">禁止转载</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="item" data-type="Answer">
+                                <a class="zg-anchor-hidden" name="answer-41605663"></a>
+                                <link itemprop="url" href="/question/49296817/answer/115310653">
+                                <meta itemprop="question-id" content="11934975">
+                                <meta itemprop="question-url-token" content="49296817">
+                                <meta itemprop="answer-id" content="41605663">
+                                <meta itemprop="answer-url-token" content="115310653">
+                                <div class="item-header">
+                                    <h2 class="item-title">
+                                        <a class="js-title-link" target="_blank" href="/question/49296817/answer/115310653">跆拳道比赛时，教练会指导哪些内容？</a>
+                                    </h2>
+                                </div>
+                                <article class="entry answer">
+                                    <div class="entry-left hidden-phone">
+                                        <a class="rating hidden-expanded js-expand js-vote-count" data-bind-votecount>17</a>
+                                        <div class="votebar visible-expanded">
+                                            <button class="up " title="赞同">
+                                                <i class="fi-voteup-arrow"></i>
+                                                <span class="count">17</span>
+                                                <span class="sr-only">赞同</span>
+                                            </button>
+                                            <button class="down" title="反对，不会显示你的姓名">
+                                                <i class="fi-votedown-arrow"></i>
+                                                <span class="sr-only">反对，不会显示你的姓名</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="entry-body">
+                                        <div class="entry-meta">
+                                            <strong class="author-line">
+                                                <a class="author" href="/people/liang-yuan-yuan-35-1" data-hovercard='p$t$liang-yuan-yuan-35-1'>梁媛媛</a>
+                                                ，<span title="体育人" class="bio">体育人</span>
+                                            </strong>
+                                        </div>
+                                        <div class="entry-content js-collapse-body" data-author-name="梁媛媛" data-entry-url="/question/49296817/answer/115310653">
+                                            <div class="summary hidden-expanded js-expand">
+                                                谢邀请，说一些个人的看法 在比赛时，运动员负责把个人技术发挥好，教练员负责对运动员的指导和战术安排，如果教练对对方运动员有一定了解，或者是看过对方的比赛，就可以针对对方的战术和自己队员的战术布置打法，比如对方，擅长前腿快速进攻，那我们就要…<a class="toggle-expand inline" href="/question/49296817/answer/115310653">显示全部</a>
+                                            </div>
+                                            <div class="visible-expanded">
+                                                <div class="zm-item-vote-info" data-votecount="17">
+                                                    <span class="voters">
+                                                        <span class="member">
+                                                            <a href="/people/sjt_666" data-hovercard='p$t$sjt_666'>史晋涛</a>
+                                                            <span>、</span>
+                                                        </span>
+                                                        <span class="member">
+                                                            <a href="/people/wu-zhi-xiao-chou-61" data-hovercard='p$t$wu-zhi-xiao-chou-61'>无知小丑</a>
+                                                            <span>、</span>
+                                                        </span>
+                                                        <span class="member">
+                                                            <a href="/people/an-hei-shang-nao" data-hovercard='p$t$an-hei-shang-nao'>暗黑伤脑</a>
+                                                        </span>
+                                                    </span>
+                                                    <a class="more">等人赞同</a>
+                                                </div>
+                                                <script type="text" class="content">
+                                                    谢邀请，说一些个人的看法<br>在比赛时，运动员负责把个人技术发挥好，教练员负责对运动员的指导和战术安排，如果教练对对方运动员有一定了解，或者是看过对方的比赛，就可以针对对方的战术和自己队员的战术布置打法，比如对方，擅长前腿快速进攻，那我们就要用假动作骗出他的第一个动作，躲开他的第一下进攻，来打反击，当然需要两人实力差不多的情况下，如果悬殊太大，这样恐怕就不行了，除了躲开第一下，还要打乱他的节奏，在他准备进攻时，抢在他前面进攻，打乱他的节奏<br>如果并不了解对手，在自己队员上场前，在他擅长的技术上充分给予肯定，让他在比赛时能发挥自己最好的状态，在合适的时机打出擅长的腿法最为重要。<br>第一局打完，中间的休息时间，在跆拳道比赛中至关重要的，与教练员沟通，有句古话，当局者迷 旁观者清，就是这个道理一般来说，在之后的战术上还会出现暗语和手势，那是教练员，与运动员一种沟通方式，运用得当将会是二打一的局面，这样能够发挥选手的更大实力，属于高级战术，第一局打完，教练员基本可以判断出对手的打法，分数领先，继续压住打，分数落后，就要多用阻击和反击动作，调整进在第二局的时候要改变战术，自己运动员的技术没有办法一下改，那就要用距离和心理来引导，比赛就是检验运动员的腿法，步法，技战术，心里战术的应用，教练员是引导指导选手发挥和对症应用这些技能，两个人绑在一起，密不可分，一个优秀的教练员可以洞悉对手找到破绽传达给选手，赢得比赛。
+                                                </script>
+                                                <a class="time" href="/question/49296817/answer/115310653">2016-08-06</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                                <div class="item-footer js-contentActions">
+                                    <ul class="item-actions">
+                                        <li class="hidden-tablet hidden-desktop">
+                                            <button class="button-text vote-num js-openVoteDialog">
+                                                <span data-bind-votecount>17</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="button-text follow unfollowing" data-follow="q:fi:button" data-id="11934975">
+                                                <i class="fi fi-follow"></i>
+                                                <span class="label">关注</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="button-text comment js-toggleCommentBox toggle-comment">
+                                                <i class="fi fi-comment"></i>
+                                                <span class="label">4 条评论</span>
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <button class="button-text auto-hide js-thank ">
+                                                <i class="fi fi-thank"></i>
+                                                感谢
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <button class="button-text auto-hide js-share">
+                                                <i class="fi fi-share"></i>
+                                                分享
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <button class="button-text auto-hide js-collect">
+                                                <i class="fi fi-fav"></i>
+                                                收藏
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <button class="button-text auto-hide js-report">
+                                                <i class="fi fi-report"></i>
+                                                举报
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <meta name="copyrightStatus" content="1">
+                                            <meta name="disableCopyAvatar" content="https://pic3.zhimg.com/39794d41a5ad3b2883ce859144f2a006_m.jpg">
+                                            <meta name="own" content="true">
+                                            <a href="/terms#sec-licence-1" target="_blank" class="action-item js-copyright">作者保留权利</a>
+                                        </li>
+                                        <li class="hidden-phone item-collapse js-collapse">
+                                            <button class="button-text">
+                                                <i class="sprite-global-icon-fold-round-default"></i>
+                                                收起
+                                            </button>
+                                        </li>
+                                        <li class="hidden-tablet hidden-desktop phone-actions">
+                                            <button class="button-text menubutton">
+                                                <i class="fi fi-3-dot"></i>
+                                                更多
+                                            </button>
+                                            <div class="menu goog-menu goog-menu-vertical zh-answer-more-actions" style="display:none">
+                                                <div class="goog-menuitem js-share">分享</div>
+                                                <div class="goog-menuseparator"></div>
+                                                <div class="goog-menuitem js-collect">收藏</div>
+                                                <div class="goog-menuseparator"></div>
+                                                <div class="goog-menuitem js-thank ">感谢</div>
+                                                <div class="goog-menuseparator"></div>
+                                                <div class="goog-menuitem js-report">举报</div>
+                                                <div class="goog-menuseparator"></div>
+                                                <div class="goog-menuitem">
+                                                    <meta name="copyrightStatus" content="1">
+                                                    <meta name="disableCopyAvatar" content="https://pic3.zhimg.com/39794d41a5ad3b2883ce859144f2a006_m.jpg">
+                                                    <a href="/terms#sec-licence-1" target="_blank" class="js-copyright">作者保留权利</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="item" data-type="Question">
+                                <link itemprop="url" href="/question/49233174">
+                                <meta itemprop="question-id" content="11909452">
+                                <meta itemprop="question-url-token" content="49233174">
+                                <div class="item-header">
+                                    <h2 class="item-title">
+                                        <a class="link" target="_blank" href="/question/49233174">2016 年里约奥运会闭幕式有哪些亮点？</a>
+                                    </h2>
+                                </div>
+                                <div class="item-footer js-contentActions">
+                                    <ul class="item-actions">
+                                        <li>
+                                            <button class="button-text follow unfollowing" data-follow="q:fi:button" data-id="11909452">
+                                                <i class="fi fi-follow"></i>
+                                                <span class="label">关注</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="button-text comment js-toggleCommentBox toggle-comment">
+                                                <i class="fi fi-comment"></i>
+                                                <span class="label">8 条评论</span>
+                                            </button>
+                                        </li>
+                                        <li class="bull">&bull;</li>
+                                        <li>
+                                            <a href="/question/49233174">109 个回答</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="item" data-type="Answer">
+                                <a class="zg-anchor-hidden" name="answer-42529517"></a>
+                                <link itemprop="url" href="/question/49732097/answer/117610819">
+                                <meta itemprop="question-id" content="12109484">
+                                <meta itemprop="question-url-token" content="49732097">
+                                <meta itemprop="answer-id" content="42529517">
+                                <meta itemprop="answer-url-token" content="117610819">
+                                <div class="item-header">
+                                    <h2 class="item-title">
+                                        <a class="js-title-link" target="_blank" href="/question/49732097/answer/117610819">怎么评价吉诺比利在 FIBA 赛场的表现？</a>
+                                    </h2>
+                                </div>
+                                <article class="entry answer">
+                                    <div class="entry-left hidden-phone">
+                                        <a class="rating hidden-expanded js-expand js-vote-count" data-bind-votecount>217</a>
+                                        <div class="votebar visible-expanded">
+                                            <button class="up " title="赞同">
+                                                <i class="fi-voteup-arrow"></i>
+                                                <span class="count">217</span>
+                                                <span class="sr-only">赞同</span>
+                                            </button>
+                                            <button class="down" title="反对，不会显示你的姓名">
+                                                <i class="fi-votedown-arrow"></i>
+                                                <span class="sr-only">反对，不会显示你的姓名</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="entry-body">
+                                        <div class="entry-meta">
+                                            <strong class="author-line">
+                                                <a class="author" href="/people/pan-zhi-li-3" data-hovercard='p$t$pan-zhi-li-3'>潘志立</a>
+                                                ，<span title="马刺球迷" class="bio">马刺球迷</span>
+                                            </strong>
+                                        </div>
+                                        <div class="entry-content js-collapse-body" data-author-name="潘志立" data-entry-url="/question/49732097/answer/117610819">
+                                            <div class="summary hidden-expanded js-expand">
+                                                有时候我在想，为什么阿根廷这一代人会打得这么长久，以吉诺比利、斯科拉、诺西奥尼为首的这帮人，从02年世锦赛打到16年奥运会，从艾弗森打到欧文，不说美国队和前南斯拉夫那几支队伍，就算是西班牙和法国，也没见过一批核心用这么持久的。 然后打到现在，3…<a class="toggle-expand inline" href="/question/49732097/answer/117610819">显示全部</a>
+                                            </div>
+                                            <div class="visible-expanded">
+                                                <div class="zm-item-vote-info" data-votecount="217">
+                                                    <span class="voters">
+                                                        <span class="member">
+                                                            <a href="/people/zqb-laobo" data-hovercard='p$t$zqb-laobo'>zqb laobo</a>
+                                                            <span>、</span>
+                                                        </span>
+                                                        <span class="member">
+                                                            <a href="/people/bu-dong-jiu-wen-233" data-hovercard='p$t$bu-dong-jiu-wen-233'>不懂就问</a>
+                                                            <span>、</span>
+                                                        </span>
+                                                        <span class="member">
+                                                            <a href="/people/lv-gen" data-hovercard='p$t$lv-gen'>吕根</a>
+                                                        </span>
+                                                    </span>
+                                                    <a class="more">等人赞同</a>
+                                                </div>
+                                                <script type="text" class="content">
+                                                    有时候我在想，为什么阿根廷这一代人会打得这么长久，以吉诺比利、斯科拉、诺西奥尼为首的这帮人，从02年世锦赛打到16年奥运会，从艾弗森打到欧文，不说美国队和前南斯拉夫那几支队伍，就算是西班牙和法国，也没见过一批核心用这么持久的。<br><br>然后打到现在，39岁的吉诺比利，37岁的诺西奥尼，36岁的斯科拉，依然在正常地运作，三人每场得分占了全队的一大半，双加时赢巴西那场比赛，37岁的诺西奥尼拿了37分。这届阿根廷队，除了三老和1991年的坎帕索，基本上就没有其他火力点了。<br><br>是这批人执念太深，还是阿根廷人才更迭速度不行，还是这批人太出色了，以至于不派他们上场就是暴殄天物浪费资源？<br><br>应该都有吧。<br><br>最后煽情一下：<br>从02年开始，阿根廷就喜欢打这一套起手式：控卫球到中路，两个内线提到高位，控卫把球分给从左侧切出的后卫——通常是马努，然后马努和控卫手递手倒球，转到右翼，再接弧顶控卫的传球，和转移到右翼的内线打挡拆。这么打固然流畅，但也很容易遭到防守压迫。<br>在看上个月拉斯维加斯的热身赛的时候，阿根廷开场尝试了两次，一次因为掩护不到位放弃了，一次在倒球的时候被欧文一把抢断（被断球的马努倒在地上望着欧文阿杜安东尼推快攻，眼里满是12年前和美国队互飚抢断来回乱战的自己）。那个时候我就觉得，这批人是真到说再见的时候了。
+                                                </script>
+                                                <a class="time" href="/question/49732097/answer/117610819">2016-08-18</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                                <div class="item-footer js-contentActions">
+                                    <ul class="item-actions">
+                                        <li class="hidden-tablet hidden-desktop">
+                                            <button class="button-text vote-num js-openVoteDialog">
+                                                <span data-bind-votecount>217</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="button-text follow unfollowing" data-follow="q:fi:button" data-id="12109484">
+                                                <i class="fi fi-follow"></i>
+                                                <span class="label">关注</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="button-text comment js-toggleCommentBox toggle-comment">
+                                                <i class="fi fi-comment"></i>
+                                                <span class="label">21 条评论</span>
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <button class="button-text auto-hide js-thank ">
+                                                <i class="fi fi-thank"></i>
+                                                感谢
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <button class="button-text auto-hide js-share">
+                                                <i class="fi fi-share"></i>
+                                                分享
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <button class="button-text auto-hide js-collect">
+                                                <i class="fi fi-fav"></i>
+                                                收藏
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <button class="button-text auto-hide js-report">
+                                                <i class="fi fi-report"></i>
+                                                举报
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <meta name="copyrightStatus" content="1">
+                                            <meta name="disableCopyAvatar" content="https://pic4.zhimg.com/677376123dee671b6dffc772d9ce9e47_m.jpg">
+                                            <meta name="own" content="true">
+                                            <a href="/terms#sec-licence-1" target="_blank" class="action-item js-copyright">作者保留权利</a>
+                                        </li>
+                                        <li class="hidden-phone item-collapse js-collapse">
+                                            <button class="button-text">
+                                                <i class="sprite-global-icon-fold-round-default"></i>
+                                                收起
+                                            </button>
+                                        </li>
+                                        <li class="hidden-tablet hidden-desktop phone-actions">
+                                            <button class="button-text menubutton">
+                                                <i class="fi fi-3-dot"></i>
+                                                更多
+                                            </button>
+                                            <div class="menu goog-menu goog-menu-vertical zh-answer-more-actions" style="display:none">
+                                                <div class="goog-menuitem js-share">分享</div>
+                                                <div class="goog-menuseparator"></div>
+                                                <div class="goog-menuitem js-collect">收藏</div>
+                                                <div class="goog-menuseparator"></div>
+                                                <div class="goog-menuitem js-thank ">感谢</div>
+                                                <div class="goog-menuseparator"></div>
+                                                <div class="goog-menuitem js-report">举报</div>
+                                                <div class="goog-menuseparator"></div>
+                                                <div class="goog-menuitem">
+                                                    <meta name="copyrightStatus" content="1">
+                                                    <meta name="disableCopyAvatar" content="https://pic4.zhimg.com/677376123dee671b6dffc772d9ce9e47_m.jpg">
+                                                    <a href="/terms#sec-licence-1" target="_blank" class="js-copyright">作者保留权利</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="item" data-type="Question">
+                                <link itemprop="url" href="/question/19744109">
+                                <meta itemprop="question-id" content="77741">
+                                <meta itemprop="question-url-token" content="19744109">
+                                <div class="item-header">
+                                    <h2 class="item-title">
+                                        <a class="link" target="_blank" href="/question/19744109">马拉松长跑如何安排专业的训练计划？</a>
+                                    </h2>
+                                </div>
+                                <div class="item-footer js-contentActions">
+                                    <ul class="item-actions">
+                                        <li>
+                                            <button class="button-text follow unfollowing" data-follow="q:fi:button" data-id="77741">
+                                                <i class="fi fi-follow"></i>
+                                                <span class="label">关注</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="button-text comment js-toggleCommentBox toggle-comment">
+                                                <i class="fi fi-comment"></i>
+                                                <span class="label">1 条评论</span>
+                                            </button>
+                                        </li>
+                                        <li class="bull">&bull;</li>
+                                        <li>
+                                            <a href="/question/19744109">54 个回答</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="item" data-type="Answer">
+                                <a class="zg-anchor-hidden" name="answer-42457856"></a>
+                                <link itemprop="url" href="/question/49631981/answer/117432040">
+                                <meta itemprop="question-id" content="12069288">
+                                <meta itemprop="question-url-token" content="49631981">
+                                <meta itemprop="answer-id" content="42457856">
+                                <meta itemprop="answer-url-token" content="117432040">
+                                <div class="item-header">
+                                    <h2 class="item-title">
+                                        <a class="js-title-link" target="_blank" href="/question/49631981/answer/117432040">为什么世界各地的人，都能够无差别地理解「爱情」，并为之感动？</a>
+                                    </h2>
+                                </div>
+                                <article class="entry answer">
+                                    <div class="entry-left hidden-phone">
+                                        <a class="rating hidden-expanded js-expand js-vote-count" data-bind-votecount>222</a>
+                                        <div class="votebar visible-expanded">
+                                            <button class="up " title="赞同">
+                                                <i class="fi-voteup-arrow"></i>
+                                                <span class="count">222</span>
+                                                <span class="sr-only">赞同</span>
+                                            </button>
+                                            <button class="down" title="反对，不会显示你的姓名">
+                                                <i class="fi-votedown-arrow"></i>
+                                                <span class="sr-only">反对，不会显示你的姓名</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="entry-body">
+                                        <div class="entry-meta">
+                                            <strong class="author-line">
+                                                <a class="author" href="/people/liu-xiang-yu-66-81" data-hovercard='p$t$liu-xiang-yu-66-81'>暗涌</a>
+                                                ，<span title="The Follower of Psychology" class="bio">The Follower of Psychology</span>
+                                            </strong>
+                                        </div>
+                                        <div class="entry-content js-collapse-body" data-author-name="暗涌" data-entry-url="/question/49631981/answer/117432040">
+                                            <div class="summary hidden-expanded js-expand">
+                                                谢 <a data-hash="e37963dbb4da3870ac9e1d2d20825fc4" href="//www.zhihu.com/people/e37963dbb4da3870ac9e1d2d20825fc4" class="member_mention" data-editable="true" data-title="@刘柯" data-hovercard="p$b$e37963dbb4da3870ac9e1d2d20825fc4">@刘柯</a>
+                                                邀^_^ --- 奥运总能给我们带来惊喜。里约奥运女子三米板决赛赛后，中国跳水运动员秦凯向刚刚获得银牌的何姿求婚。这一幕感动了数以亿计的全球观众。正如题主所说，这次奥运会上的求婚，人们的感动是跨种族、跨文化的，不需要任何多余的解释，大部分…<a class="toggle-expand inline" href="/question/49631981/answer/117432040">显示全部</a>
+                                            </div>
+                                            <div class="visible-expanded">
+                                                <div class="zm-item-vote-info" data-votecount="222">
+                                                    <span class="voters">
+                                                        <span class="member">
+                                                            <a href="/people/cheng-rui-15-35" data-hovercard='p$t$cheng-rui-15-35'>刮非</a>
+                                                            <span>、</span>
+                                                        </span>
+                                                        <span class="member">
+                                                            <a href="/people/yida-liang-bai-kai" data-hovercard='p$t$yida-liang-bai-kai'>一打凉白开</a>
+                                                            <span>、</span>
+                                                        </span>
+                                                        <span class="member">
+                                                            <a href="/people/mols-16" data-hovercard='p$t$mols-16'>mols</a>
+                                                        </span>
+                                                    </span>
+                                                    <a class="more">等人赞同</a>
+                                                </div>
+                                                <script type="text" class="content">
+                                                    谢 <a data-hash="e37963dbb4da3870ac9e1d2d20825fc4" href="//www.zhihu.com/people/e37963dbb4da3870ac9e1d2d20825fc4" class="member_mention" data-editable="true" data-title="@刘柯" data-hovercard="p$b$e37963dbb4da3870ac9e1d2d20825fc4">@刘柯</a>邀^_^<br><br>---<br><br>奥运总能给我们带来惊喜。里约奥运女子三米板决赛赛后，中国跳水运动员秦凯向刚刚获得银牌的何姿求婚。这一幕感动了数以亿计的全球观众。<img src="https://pic1.zhimg.com/99d0930df4f0e41117616e14e5a36114_b.jpg" data-rawwidth="600" data-rawheight="395" class="origin_image zh-lightbox-thumb" width="600" data-original="https://pic1.zhimg.com/99d0930df4f0e41117616e14e5a36114_r.jpg">正如题主所说，这次奥运会上的求婚，人们的感动是跨种族、跨文化的，不需要任何多余的解释，大部分人都能透过屏幕感受到这份浪漫。<br><br>翻译成心理学的话语，「爱情」似乎具有跨文化一致性。<br><br>但也有人不这么认为。事实上，一些社会科学家认为，「爱情」是现代西方社会的产物，而不存在于其他地方。<br><br>事实到底如何？「爱情」真的只是现代西方社会的果实，还是跨越文化与地域，为全人类所共有呢？早在30多年前，心理学已经给出了答案。<br><br>---<br><br>20世纪，学界关于「爱情」的观点主要有两派：一派是部分历史学家和社会学家主张的「欧洲中心论」，认为爱情是现代西方社会的产物，有人甚至宣称：「如果爱情曾存在于欧美文化圈之外，那也一定存在于有品位的精英之中」，当时这一派的声音为人所认可；另一派则是部分人类学家和心理学家，他们通过调查研究，掌握了一些爱情广泛存在于人类社会的证据，这一派的声音很小，少人信服。<br><br>就是在这样的背景下，1992年，两名心理学家展开了关于「爱情」的跨文化研究。<br><br>首先需要给「爱情」下一个定义。<br><br>两个人在一起，怎么就算是爱情，怎么就不是？研究者遍阅前人文献，将亲密关系分为浪漫之爱与相伴之爱两类。<br><ol><li>浪漫之爱：特征包括理想化的另一半，常常伴随着性的驱力，并有与对方待一块的意愿。<br></li><li>相伴之爱：以一个更为和平、舒适和充实的成长为特征的关系；它是建立在长期交往中的一种强烈而持久的感情。<br></li></ol>其中浪漫之爱就是通常所指的「爱情」，这个操作性定义获得了两位专家的一致通过。<br><br>其次需要选取跨文化样本。<br><br>要研究爱情是否普遍存在，研究范围就必须是五湖四海。在这里他们使用的是前人给出的标准跨文化样本(Standard Cross-Cultural Sample, SCCS)。其中包含了186个形态各异的文化样本，从原始部落的亚诺玛米人到北美的现代社会一应俱全。可以说，他们就代表了全人类。<br><br>然后就要着手研究了。<br><br>我们总不能一一走访这186个文化，看看这些文化中有没有爱情存在吧。此时研究者想起了一位西方记者的名言——「如果一个东西看起来像鸭子，走起来像鸭子，叫起来也像鸭子，那么它就是鸭子」。同样的，如果一个文化中有关于爱情的故事、传说，也有与爱情相关的具体行为、观念、民俗，那么这个文化中就存在爱情。<br><br>研究者顺着这个思路，收集到186个文化的有关资料（其中排除了语焉不详的20个），跟高考阅卷似的，请人来评定这个文化中有没有「爱情」的存在。<br><br>光阴似箭，日月如梭，又到了丰收的季节。结果显示，在166个文化中，有147个文化被认定存在「爱情」，比率高达88.5%，可以说「爱情」是具有跨文化一致性的。<br><br>用人话来说，「爱情」不是西方现代社会的专利，而是无差别地存在于世界各地的文化中。所谓的「欧洲中心论」不攻自破。<br><br>这还不算完。后续的研究揭示了更多关于爱情的事实：<br><ul><li>一项针对48个国家15000人的研究显示，不同文化中的爱情的概念是非常相似的，进一步验证了「无差别」；<br></li><li>生理研究显示，爱情不仅仅存在于人类身上；<br></li><li>脑科学研究显示，爱情的产生与脑中的诸多神经递质有关，因此有了「肾上腺素决定出不出手，多巴胺决定天长地久，5-羟色胺决定谁先开口，端粒酶决定谁会先走」的段子。</li></ul><br>因此，世界各地的人都能够无差别地理解「爱情」并为之感动，并不是一件惊奇的事情；反之，如果某一群人认为爱情是某某文化的专利，是好莱坞爱情片的幻觉，才让人感到惊奇呢。<br><br>---<br><br>看了大家的评论，我想增补一点东西。<br><br><ol><li>有的朋友指出「问题在问是什么，你回答了是不是」。我想了想，好像的确如此。由于手头还没有相关文献，我提出一点个人见解：之所以大家都会被求婚那一幕所感动，是因为求婚场景的「启动效应」，它间接启动了我们头脑中关于爱情的概念、情感与态度。而之所以全世界的人都会被感动，那就是爱情本身的跨文化一致性了。<br></li><li>有的朋友询问「肾上腺素决定出不出手，多巴胺决定天长地久，5-羟色胺决定谁先开口，端粒酶决定谁会先走」怎么解读。知乎上珠玉在前，请移步<a href="https://www.zhihu.com/question/21007600" class="internal">「肾上腺素决定出不出手，多巴胺决定天长地久，5-羟色胺决定谁先开口，端粒酶决定谁会先走」如何解释？</a><br></li><li>研究者为何选定了浪漫之爱，而不是相伴之爱？原因是一个文化中一定会发生男女混住（不然怎么延续呢），这个过程中是可以发展处相伴之爱的；但这不代表这个文化中有爱情的存在。<br></li></ol><br>参考文献：<br><br>Jankowiak, W., &amp; Fischer, E. F. (1992). A Cross-Cultural Perspective on Romantic Love. <i>Ethnology</i>, 31(2), 149-156.
+                                                </script>
+                                                <a class="time" href="/question/49631981/answer/117432040">2016-08-17</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                                <div class="item-footer js-contentActions">
+                                    <ul class="item-actions">
+                                        <li class="hidden-tablet hidden-desktop">
+                                            <button class="button-text vote-num js-openVoteDialog">
+                                                <span data-bind-votecount>222</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="button-text follow unfollowing" data-follow="q:fi:button" data-id="12069288">
+                                                <i class="fi fi-follow"></i>
+                                                <span class="label">关注</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="button-text comment js-toggleCommentBox toggle-comment">
+                                                <i class="fi fi-comment"></i>
+                                                <span class="label">53 条评论</span>
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <button class="button-text auto-hide js-thank ">
+                                                <i class="fi fi-thank"></i>
+                                                感谢
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <button class="button-text auto-hide js-share">
+                                                <i class="fi fi-share"></i>
+                                                分享
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <button class="button-text auto-hide js-collect">
+                                                <i class="fi fi-fav"></i>
+                                                收藏
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <button class="button-text auto-hide js-report">
+                                                <i class="fi fi-report"></i>
+                                                举报
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <meta name="copyrightStatus" content="2">
+                                            <meta name="disableCopyAvatar" content="https://pic1.zhimg.com/266ab8f14_m.jpg">
+                                            <meta name="own" content="true">
+                                            <a href="/copyright/apply?answer=117432040" target="_blank" class="action-item js-copyright">申请转载</a>
+                                        </li>
+                                        <li class="hidden-phone item-collapse js-collapse">
+                                            <button class="button-text">
+                                                <i class="sprite-global-icon-fold-round-default"></i>
+                                                收起
+                                            </button>
+                                        </li>
+                                        <li class="hidden-tablet hidden-desktop phone-actions">
+                                            <button class="button-text menubutton">
+                                                <i class="fi fi-3-dot"></i>
+                                                更多
+                                            </button>
+                                            <div class="menu goog-menu goog-menu-vertical zh-answer-more-actions" style="display:none">
+                                                <div class="goog-menuitem js-share">分享</div>
+                                                <div class="goog-menuseparator"></div>
+                                                <div class="goog-menuitem js-collect">收藏</div>
+                                                <div class="goog-menuseparator"></div>
+                                                <div class="goog-menuitem js-thank ">感谢</div>
+                                                <div class="goog-menuseparator"></div>
+                                                <div class="goog-menuitem js-report">举报</div>
+                                                <div class="goog-menuseparator"></div>
+                                                <div class="goog-menuitem">
+                                                    <meta name="copyrightStatus" content="2">
+                                                    <meta name="disableCopyAvatar" content="https://pic1.zhimg.com/266ab8f14_m.jpg">
+                                                    <a href="/copyright/apply?answer=117432040" target="_blank" class="js-copyright">申请转载</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="item" data-type="Question">
+                                <link itemprop="url" href="/question/32181429">
+                                <meta itemprop="question-id" content="5072077">
+                                <meta itemprop="question-url-token" content="32181429">
+                                <div class="item-header">
+                                    <h2 class="item-title">
+                                        <a class="link" target="_blank" href="/question/32181429">朱婷可以称为中国女排史上最佳主攻吗？</a>
+                                    </h2>
+                                </div>
+                                <div class="item-footer js-contentActions">
+                                    <ul class="item-actions">
+                                        <li>
+                                            <button class="button-text follow unfollowing" data-follow="q:fi:button" data-id="5072077">
+                                                <i class="fi fi-follow"></i>
+                                                <span class="label">关注</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="button-text comment js-toggleCommentBox toggle-comment">
+                                                <i class="fi fi-comment"></i>
+                                                <span class="label">7 条评论</span>
+                                            </button>
+                                        </li>
+                                        <li class="bull">&bull;</li>
+                                        <li>
+                                            <a href="/question/32181429">142 个回答</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="item" data-type="Question">
+                                <link itemprop="url" href="/question/20400625">
+                                <meta itemprop="question-id" content="340562">
+                                <meta itemprop="question-url-token" content="20400625">
+                                <div class="item-header">
+                                    <h2 class="item-title">
+                                        <a class="link" target="_blank" href="/question/20400625">人为什么要练竞走？</a>
+                                    </h2>
+                                </div>
+                                <div class="item-footer js-contentActions">
+                                    <ul class="item-actions">
+                                        <li>
+                                            <button class="button-text follow unfollowing" data-follow="q:fi:button" data-id="340562">
+                                                <i class="fi fi-follow"></i>
+                                                <span class="label">关注</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="button-text comment js-toggleCommentBox toggle-comment">
+                                                <i class="fi fi-comment"></i>
+                                                <span class="label">2 条评论</span>
+                                            </button>
+                                        </li>
+                                        <li class="bull">&bull;</li>
+                                        <li>
+                                            <a href="/question/20400625">24 个回答</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="item" data-type="Question">
+                                <link itemprop="url" href="/question/22806103">
+                                <meta itemprop="question-id" content="1303153">
+                                <meta itemprop="question-url-token" content="22806103">
+                                <div class="item-header">
+                                    <h2 class="item-title">
+                                        <a class="link" target="_blank" href="/question/22806103">中国的花样滑冰和艺术体操究竟和其他国家的差距在哪？</a>
+                                    </h2>
+                                </div>
+                                <div class="item-footer js-contentActions">
+                                    <ul class="item-actions">
+                                        <li>
+                                            <button class="button-text follow unfollowing" data-follow="q:fi:button" data-id="1303153">
+                                                <i class="fi fi-follow"></i>
+                                                <span class="label">关注</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="button-text comment js-toggleCommentBox toggle-comment">
+                                                <i class="fi fi-comment"></i>
+                                                <span class="label">添加评论</span>
+                                            </button>
+                                        </li>
+                                        <li class="bull">&bull;</li>
+                                        <li>
+                                            <a href="/question/22806103">23 个回答</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="item" data-type="Question">
+                                <link itemprop="url" href="/question/21439108">
+                                <meta itemprop="question-id" content="756354">
+                                <meta itemprop="question-url-token" content="21439108">
+                                <div class="item-header">
+                                    <h2 class="item-title">
+                                        <a class="link" target="_blank" href="/question/21439108">谌龙在技术风格上与林丹，李宗伟等前一辈顶尖选手的区别是什么？</a>
+                                    </h2>
+                                </div>
+                                <div class="item-footer js-contentActions">
+                                    <ul class="item-actions">
+                                        <li>
+                                            <button class="button-text follow unfollowing" data-follow="q:fi:button" data-id="756354">
+                                                <i class="fi fi-follow"></i>
+                                                <span class="label">关注</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="button-text comment js-toggleCommentBox toggle-comment">
+                                                <i class="fi fi-comment"></i>
+                                                <span class="label">4 条评论</span>
+                                            </button>
+                                        </li>
+                                        <li class="bull">&bull;</li>
+                                        <li>
+                                            <a href="/question/21439108">39 个回答</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="item" data-type="Answer">
+                                <a class="zg-anchor-hidden" name="answer-42433377"></a>
+                                <link itemprop="url" href="/question/49690050/answer/117370916">
+                                <meta itemprop="question-id" content="12092644">
+                                <meta itemprop="question-url-token" content="49690050">
+                                <meta itemprop="answer-id" content="42433377">
+                                <meta itemprop="answer-url-token" content="117370916">
+                                <div class="item-header">
+                                    <h2 class="item-title">
+                                        <a class="js-title-link" target="_blank" href="/question/49690050/answer/117370916">中国举重队在 2016 里约奥运会上的表现如何？</a>
+                                    </h2>
+                                </div>
+                                <article class="entry answer">
+                                    <div class="entry-left hidden-phone">
+                                        <a class="rating hidden-expanded js-expand js-vote-count" data-bind-votecount>87</a>
+                                        <div class="votebar visible-expanded">
+                                            <button class="up " title="赞同">
+                                                <i class="fi-voteup-arrow"></i>
+                                                <span class="count">87</span>
+                                                <span class="sr-only">赞同</span>
+                                            </button>
+                                            <button class="down" title="反对，不会显示你的姓名">
+                                                <i class="fi-votedown-arrow"></i>
+                                                <span class="sr-only">反对，不会显示你的姓名</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="entry-body">
+                                        <div class="entry-meta">
+                                            <strong class="author-line">
+                                                <a class="author" href="/people/kmlover" data-hovercard='p$t$kmlover'>kmlover</a>
+                                            </strong>
+                                        </div>
+                                        <div class="entry-content js-collapse-body" data-author-name="kmlover" data-entry-url="/question/49690050/answer/117370916">
+                                            <div class="summary hidden-expanded js-expand">
+                                                谢邀。本来想说表现不如预期的，转头看到体操和羽毛球，我默默地把后面的话收了回去…… 仅就运动员临场表现而言，这次举重队的运动员们基本没有可挑剔的毛病（谌利军是减体重导致抽筋，属于赛前训练和准备工作问题；黎雅君是临场战术不对），心理素质过硬…<a class="toggle-expand inline" href="/question/49690050/answer/117370916">显示全部</a>
+                                            </div>
+                                            <div class="visible-expanded">
+                                                <div class="zm-item-vote-info" data-votecount="87">
+                                                    <span class="voters">
+                                                        <span class="member">
+                                                            <a href="/people/bo-jiang-26" data-hovercard='p$t$bo-jiang-26'>伯将</a>
+                                                            <span>、</span>
+                                                        </span>
+                                                        <span class="member">
+                                                            <a href="/people/yu-hans" data-hovercard='p$t$yu-hans'>Hookgrip</a>
+                                                            <span>、</span>
+                                                        </span>
+                                                        <span class="member">
+                                                            <a href="/people/marefake" data-hovercard='p$t$marefake'>哼哼哈嘿</a>
+                                                        </span>
+                                                    </span>
+                                                    <a class="more">等人赞同</a>
+                                                </div>
+                                                <script type="text" class="content">
+                                                    谢邀。本来想说表现不如预期的，转头看到体操和羽毛球，我默默地把后面的话收了回去……<br><br>仅就运动员临场表现而言，这次举重队的运动员们基本没有可挑剔的毛病（谌利军是减体重导致抽筋，属于赛前训练和准备工作问题；黎雅君是临场战术不对），心理素质过硬且拼劲十足。特别是龙清泉在2010~2015年连续六年表现糟糕（详见<a href="https://www.zhihu.com/question/49365942/answer/115687098" class="internal">龙清泉挺举 170kg 究竟有多难？他是如何做到的？ - kmlover 的回答</a>）的情况下逆境爆发，以破世界纪录的总成绩战胜强大对手拿下金牌，完全有资格竞争本届奥运会中国代表团的最佳男运动员称号。而整支举重队5金2银的成绩也达到了女子举重加入奥运以来的平均水平（2000年5金1银1铜、2004年5金3银、2008年主场8金1银、2012年5金2银），但考虑到国外大批强手遭到禁赛的有利环境，应该说还是有一些遗憾的，造成这些遗憾的原因主要有：<br><br>（一）临场战术策略问题<br><br>出现级别：男子85、105公斤级，女子53公斤级（75公斤以上级可能也是临场战术策略问题）<br><br>临场战术策略要考虑到自己和对手的实力、特点以及赛场表现。就以本次比赛而论，田涛在力量上有优势，开把重量却要得过低（连他自己赛后都说开把低了兴奋不起来），结果白白错失了4次试举机会（幸好在试举失败后果断加重），只能屈居亚军。杨哲则反之，明明力量没优势（看挺举翻站就知道），却在抓举195失败后继续加到197，结果再次失败，白白丢掉了一枚本可拿下的银牌（最后总成绩只比第二名少两公斤）。至于黎雅君的失误，知乎上已经有不少讨论了，此处就不再赘述。<br><br>（二）赛前训练准备工作问题<br><br>出现级别：男子62、77公斤级，女子69公斤级（75公斤以上级可能也是赛前训练和准备工作问题）<br><br>如果你不仅在奥运期间，平时也一直关注举重运动，那你一定会发现谌利军、吕小军和田涛此次参加奥运会的体重都创下了他们参加国际大赛以来的最高值。考虑到他们的主管教练都是于杰，而于杰向来以重视力量著称。我猜测很可能是赛前训练中力量训练的比重大，体重增加过多，导致赛前减重困难，结果谌利军因为减体重抽筋退赛，而吕小军在挺举部分的比赛中表现也欠佳（减体重对主要靠力量的挺举影响更大）。至于女子69公斤级，主要是伤病恢复问题，幸好该级别没出现强劲对手抢走金牌，所以就不多说了。<br><br>（三）青少年运动员培养问题<br><br>和许多人“举重运动员选的都是矮个子”的印象不同，我们国家的举重运动员在同级别里往往身高偏高。这主要是由于许多地方教练在青少年训练阶段过于重视眼前比赛的成绩而忽视了运动员的长远发展，让发育尚未完成的运动员控制体重，以便留在体重较轻的级别“虐菜”。结果到了成年以后普遍身材偏瘦（因为在体重相同的情况下身高比对手高），挺举成绩相对较差，在比赛中被挺举实力强的对手逆转。例如：<br><br>去年世锦赛吴景彪抓举领先朝鲜的严润哲8公斤并且打破世界纪录（139-131），挺举被同样打破世界纪录的对手逆转（163-171）<br><img src="https://pic2.zhimg.com/1dd948b3bc6ccafd75f94a1a2ac9c41d_b.jpg" data-rawwidth="930" data-rawheight="620" class="origin_image zh-lightbox-thumb" width="930" data-original="https://pic2.zhimg.com/1dd948b3bc6ccafd75f94a1a2ac9c41d_r.jpg">（注，配图用的是2012年奥运会的合影，目的是显示两人的身高差距）<br><br>今年奥运会吕小军抓举领先哈萨克斯坦的拉西莫夫12公斤并打破世界纪录（177-165），挺举被同样打破世界纪录的对手逆转（202-214）<br><img src="https://pic3.zhimg.com/511fe3de773707e07dd08092fa38cbe2_b.jpg" data-rawwidth="637" data-rawheight="310" class="origin_image zh-lightbox-thumb" width="637" data-original="https://pic3.zhimg.com/511fe3de773707e07dd08092fa38cbe2_r.jpg"><br>而挺举不吃亏的龙清泉、石智勇和田涛和对手比个子都不高<br><img src="https://pic2.zhimg.com/861e62443f30f226f261924f3e71f879_b.jpg" data-rawwidth="637" data-rawheight="310" class="origin_image zh-lightbox-thumb" width="637" data-original="https://pic2.zhimg.com/861e62443f30f226f261924f3e71f879_r.jpg"><img src="https://pic4.zhimg.com/a0eb830966e3d037fb42183b0357229f_b.jpg" data-rawwidth="640" data-rawheight="404" class="origin_image zh-lightbox-thumb" width="640" data-original="https://pic4.zhimg.com/a0eb830966e3d037fb42183b0357229f_r.jpg"><img src="https://pic1.zhimg.com/d0fd34e95d4ebd5f5340ce70aaeb7418_b.jpg" data-rawwidth="637" data-rawheight="310" class="origin_image zh-lightbox-thumb" width="637" data-original="https://pic1.zhimg.com/d0fd34e95d4ebd5f5340ce70aaeb7418_r.jpg"><br><br>再看本届奥运会的男子全部8个级别（女子经常是一枝独秀，竞争没男子激烈），有四个级别（69、77、105和105+，其中105是抓举相同输体重）都是抓举第一名在挺举比赛中被逆转痛失冠军，而剩下四个级别都是抓举第一名在挺举比赛中保持甚至扩大了领先优势，最终夺得冠军。挺举的重要性由此可见一斑。<br><br>最后，希望国家队吸取本次比赛的教训，在下一届奥运会上取得更好的成绩！
+                                                </script>
+                                                <a class="time" href="/question/49690050/answer/117370916">2016-08-17</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                                <div class="item-footer js-contentActions">
+                                    <ul class="item-actions">
+                                        <li class="hidden-tablet hidden-desktop">
+                                            <button class="button-text vote-num js-openVoteDialog">
+                                                <span data-bind-votecount>87</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="button-text follow unfollowing" data-follow="q:fi:button" data-id="12092644">
+                                                <i class="fi fi-follow"></i>
+                                                <span class="label">关注</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="button-text comment js-toggleCommentBox toggle-comment">
+                                                <i class="fi fi-comment"></i>
+                                                <span class="label">14 条评论</span>
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <button class="button-text auto-hide js-thank ">
+                                                <i class="fi fi-thank"></i>
+                                                感谢
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <button class="button-text auto-hide js-share">
+                                                <i class="fi fi-share"></i>
+                                                分享
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <button class="button-text auto-hide js-collect">
+                                                <i class="fi fi-fav"></i>
+                                                收藏
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <button class="button-text auto-hide js-report">
+                                                <i class="fi fi-report"></i>
+                                                举报
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <meta name="copyrightStatus" content="1">
+                                            <meta name="disableCopyAvatar" content="https://pic2.zhimg.com/6518de36bf425e2ffb7c2b80f14a62b1_m.jpg">
+                                            <meta name="own" content="true">
+                                            <a href="/terms#sec-licence-1" target="_blank" class="action-item js-copyright">作者保留权利</a>
+                                        </li>
+                                        <li class="hidden-phone item-collapse js-collapse">
+                                            <button class="button-text">
+                                                <i class="sprite-global-icon-fold-round-default"></i>
+                                                收起
+                                            </button>
+                                        </li>
+                                        <li class="hidden-tablet hidden-desktop phone-actions">
+                                            <button class="button-text menubutton">
+                                                <i class="fi fi-3-dot"></i>
+                                                更多
+                                            </button>
+                                            <div class="menu goog-menu goog-menu-vertical zh-answer-more-actions" style="display:none">
+                                                <div class="goog-menuitem js-share">分享</div>
+                                                <div class="goog-menuseparator"></div>
+                                                <div class="goog-menuitem js-collect">收藏</div>
+                                                <div class="goog-menuseparator"></div>
+                                                <div class="goog-menuitem js-thank ">感谢</div>
+                                                <div class="goog-menuseparator"></div>
+                                                <div class="goog-menuitem js-report">举报</div>
+                                                <div class="goog-menuseparator"></div>
+                                                <div class="goog-menuitem">
+                                                    <meta name="copyrightStatus" content="1">
+                                                    <meta name="disableCopyAvatar" content="https://pic2.zhimg.com/6518de36bf425e2ffb7c2b80f14a62b1_m.jpg">
+                                                    <a href="/terms#sec-licence-1" target="_blank" class="js-copyright">作者保留权利</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="item" data-type="Question">
+                                <link itemprop="url" href="/question/49805805">
+                                <meta itemprop="question-id" content="12138988">
+                                <meta itemprop="question-url-token" content="49805805">
+                                <div class="item-header">
+                                    <h2 class="item-title">
+                                        <a class="link" target="_blank" href="/question/49805805">如何看待傅海峰、张楠获得 2016 年里约热内卢奥运会男子羽毛球双打冠军？</a>
+                                    </h2>
+                                </div>
+                                <div class="item-footer js-contentActions">
+                                    <ul class="item-actions">
+                                        <li>
+                                            <button class="button-text follow unfollowing" data-follow="q:fi:button" data-id="12138988">
+                                                <i class="fi fi-follow"></i>
+                                                <span class="label">关注</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="button-text comment js-toggleCommentBox toggle-comment">
+                                                <i class="fi fi-comment"></i>
+                                                <span class="label">2 条评论</span>
+                                            </button>
+                                        </li>
+                                        <li class="bull">&bull;</li>
+                                        <li>
+                                            <a href="/question/49805805">105 个回答</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="item" data-type="Question">
+                                <link itemprop="url" href="/question/49811424">
+                                <meta itemprop="question-id" content="12141225">
+                                <meta itemprop="question-url-token" content="49811424">
+                                <div class="item-header">
+                                    <h2 class="item-title">
+                                        <a class="link" target="_blank" href="/question/49811424">如何评价博尔特连续三届奥运会 100 米、200 米、4*100 米三个项目三连冠？</a>
+                                    </h2>
+                                </div>
+                                <div class="item-footer js-contentActions">
+                                    <ul class="item-actions">
+                                        <li>
+                                            <button class="button-text follow unfollowing" data-follow="q:fi:button" data-id="12141225">
+                                                <i class="fi fi-follow"></i>
+                                                <span class="label">关注</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="button-text comment js-toggleCommentBox toggle-comment">
+                                                <i class="fi fi-comment"></i>
+                                                <span class="label">3 条评论</span>
+                                            </button>
+                                        </li>
+                                        <li class="bull">&bull;</li>
+                                        <li>
+                                            <a href="/question/49811424">90 个回答</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="item" data-type="Answer">
+                                <a class="zg-anchor-hidden" name="answer-42197817"></a>
+                                <link itemprop="url" href="/question/20401354/answer/116784295">
+                                <meta itemprop="question-id" content="340848">
+                                <meta itemprop="question-url-token" content="20401354">
+                                <meta itemprop="answer-id" content="42197817">
+                                <meta itemprop="answer-url-token" content="116784295">
+                                <div class="item-header">
+                                    <h2 class="item-title">
+                                        <a class="js-title-link" target="_blank" href="/question/20401354/answer/116784295">如何欣赏击剑比赛？</a>
+                                    </h2>
+                                </div>
+                                <article class="entry answer">
+                                    <div class="entry-left hidden-phone">
+                                        <a class="rating hidden-expanded js-expand js-vote-count" data-bind-votecount>116</a>
+                                        <div class="votebar visible-expanded">
+                                            <button class="up " title="赞同">
+                                                <i class="fi-voteup-arrow"></i>
+                                                <span class="count">116</span>
+                                                <span class="sr-only">赞同</span>
+                                            </button>
+                                            <button class="down" title="反对，不会显示你的姓名">
+                                                <i class="fi-votedown-arrow"></i>
+                                                <span class="sr-only">反对，不会显示你的姓名</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="entry-body">
+                                        <div class="entry-meta">
+                                            <strong class="author-line">
+                                                <a class="author" href="/people/nulli-cedo-53" data-hovercard='p$t$nulli-cedo-53'>Nulli Cedo</a>
+                                                ，<span title="墨尔本外科住院医生，英澳两国执业" class="bio">墨尔本外科住院医生，英澳两国执业</span>
+                                            </strong>
+                                        </div>
+                                        <div class="entry-content js-collapse-body" data-author-name="Nulli Cedo" data-entry-url="/question/20401354/answer/116784295">
+                                            <div class="summary hidden-expanded js-expand">
+                                                首先建议从重剑开始欣赏，规则简单，谁亮灯谁得分，你支持的运动员亮灯（红灯或者绿灯）就可以吼，简单粗暴，没有任何技术含量。佩剑我不懂，以下重点介绍花剑 花剑的话可以说是最难欣赏的，不过门外汉如果看不懂规则，可以注意以下观赏点 1. 甩剑，flicks…<a class="toggle-expand inline" href="/question/20401354/answer/116784295">显示全部</a>
+                                            </div>
+                                            <div class="visible-expanded">
+                                                <div class="zm-item-vote-info" data-votecount="116">
+                                                    <span class="voters">
+                                                        <span class="member">
+                                                            <a href="/people/tong-nian-16-83" data-hovercard='p$t$tong-nian-16-83'>隐冉冉</a>
+                                                            <span>、</span>
+                                                        </span>
+                                                        <span class="member">
+                                                            <a href="/people/xiao-yao-19-26" data-hovercard='p$t$xiao-yao-19-26'>肖小遥</a>
+                                                            <span>、</span>
+                                                        </span>
+                                                        <span class="member">
+                                                            <a href="/people/lancelot-dy" data-hovercard='p$t$lancelot-dy'>DY Lancelot</a>
+                                                        </span>
+                                                    </span>
+                                                    <a class="more">等人赞同</a>
+                                                </div>
+                                                <script type="text" class="content">
+                                                    首先建议从重剑开始欣赏，规则简单，谁亮灯谁得分，你支持的运动员亮灯（红灯或者绿灯）就可以吼，简单粗暴，没有任何技术含量。佩剑我不懂，以下重点介绍花剑<br><br>花剑的话可以说是最难欣赏的，不过门外汉如果看不懂规则，可以注意以下观赏点<br><br>1. 甩剑，flicks，就是利用花剑剑条的柔韧性以匪夷所思的角度击中对手，基本上不是无意击中的都帅到掉渣，特别是甩对手背后有效部位的<br><img src="https://pic1.zhimg.com/f7c8dbfa491e1d84ec48a42b0a97c40c_b.jpg" data-rawwidth="1414" data-rawheight="1174" class="origin_image zh-lightbox-thumb" width="1414" data-original="https://pic1.zhimg.com/f7c8dbfa491e1d84ec48a42b0a97c40c_r.jpg"><br>2. 近战，infighting，可以说几乎是花剑独有的艺术（重剑也有一些），也是击剑被称之为剑道上芭蕾舞的原因。由于剑长和速度，花剑经常会有近距离作战的场景，这个时候合理利用各种角度来使自己的剑尖接触有效部位就成了一门艺术，有绝佳的观赏性，个人最爱也是最常见的是脑后近战，高级玩家有裤裆近战，转身甩剑近战等等。美国的Miles Chamley-Watson是比较会玩的，有机会可以看看视频欣赏下<br><br><img src="https://pic4.zhimg.com/b5e914964de2f920f5461160574a3fcf_b.jpg" data-rawwidth="640" data-rawheight="640" class="origin_image zh-lightbox-thumb" width="640" data-original="https://pic4.zhimg.com/b5e914964de2f920f5461160574a3fcf_r.jpg"><img src="https://pic3.zhimg.com/3b9206f2533ac285fc37eadc14774eba_b.jpg" data-rawwidth="400" data-rawheight="267" class="content_image" width="400"><br>3. 跳甩剑，Jump flicks，重剑花剑都有，一般是高手虐低手的招式，跳起以躲避攻击同时攻击对手背部，击中有极大煽动性，奥运这种等级的一般很少有<br><img src="https://pic3.zhimg.com/87a25d9e076301d6f58d42675510debe_b.jpg" data-rawwidth="500" data-rawheight="333" class="origin_image zh-lightbox-thumb" width="500" data-original="https://pic3.zhimg.com/87a25d9e076301d6f58d42675510debe_r.jpg"><br>4. 突刺，Fleche，一般是在重剑花剑中出现，一般是在合适的距离和对手猝不及防的时机忽然如离弦之箭一般尽全力突刺，而且尽快和对手擦身而过离开剑道。在奥运的级别的突刺已经很少有这么明显的突刺，基本是加速极快，完成也极快的动作，日本的太田雄贵就是极大成者，突刺如爆发力极强，但是却是蜻蜓点水，电光火石之间出招收招得分，完全没有夸张的动作但却效果极好<br><img src="https://pic4.zhimg.com/5e34f5f40fa191fcd34906e06dd3566b_b.png" data-rawwidth="335" data-rawheight="173" class="content_image" width="335"><img src="https://pic3.zhimg.com/93d2a4008446199b9efca66171f1028e_b.jpg" data-rawwidth="1024" data-rawheight="613" class="origin_image zh-lightbox-thumb" width="1024" data-original="https://pic3.zhimg.com/93d2a4008446199b9efca66171f1028e_r.jpg"><br>5. 狂喜<br>看过击剑比赛的人都见过分出胜负以后运动员怒吼，甩面罩，躺在地上，哭泣的场景，特别是经过非常艰苦卓绝的拉锯战获得胜利的狂喜。那种狂喜真的只有击剑这种运动可以经常见到。外人看着没有波澜，充满礼仪的击剑比赛，冷酷的面罩下是万种思绪，身上穿着四层厚厚的衣物渗透着外人绝对无法察觉的汗水。压抑越多，释放越多，庆祝的方式也是看点之一<br><img src="https://pic3.zhimg.com/419fe93936f12b4ced80392d25e03fda_b.png" data-rawwidth="550" data-rawheight="386" class="origin_image zh-lightbox-thumb" width="550" data-original="https://pic3.zhimg.com/419fe93936f12b4ced80392d25e03fda_r.png"><img src="https://pic4.zhimg.com/8e5f68127e3c0180aef0edb737141183_b.jpg" data-rawwidth="375" data-rawheight="264" class="content_image" width="375">每次答主获得一个小小地区性第一时，如果决赛很困难，结束后我都要找面罩，因为得到分出胜负的那一分的一瞬间，摘下的面罩就被我扔到不知道哪里去了<br><br>祝大家观剑愉快
+                                                </script>
+                                                <a class="time" href="/question/20401354/answer/116784295">2016-08-14</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                                <div class="item-footer js-contentActions">
+                                    <ul class="item-actions">
+                                        <li class="hidden-tablet hidden-desktop">
+                                            <button class="button-text vote-num js-openVoteDialog">
+                                                <span data-bind-votecount>116</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="button-text follow unfollowing" data-follow="q:fi:button" data-id="340848">
+                                                <i class="fi fi-follow"></i>
+                                                <span class="label">关注</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="button-text comment js-toggleCommentBox toggle-comment">
+                                                <i class="fi fi-comment"></i>
+                                                <span class="label">11 条评论</span>
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <button class="button-text auto-hide js-thank ">
+                                                <i class="fi fi-thank"></i>
+                                                感谢
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <button class="button-text auto-hide js-share">
+                                                <i class="fi fi-share"></i>
+                                                分享
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <button class="button-text auto-hide js-collect">
+                                                <i class="fi fi-fav"></i>
+                                                收藏
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <button class="button-text auto-hide js-report">
+                                                <i class="fi fi-report"></i>
+                                                举报
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <meta name="copyrightStatus" content="1">
+                                            <meta name="disableCopyAvatar" content="https://pic4.zhimg.com/f5b4ba9655e15da8a0634e2d30f3789f_m.jpg">
+                                            <meta name="own" content="true">
+                                            <a href="/terms#sec-licence-1" target="_blank" class="action-item js-copyright">作者保留权利</a>
+                                        </li>
+                                        <li class="hidden-phone item-collapse js-collapse">
+                                            <button class="button-text">
+                                                <i class="sprite-global-icon-fold-round-default"></i>
+                                                收起
+                                            </button>
+                                        </li>
+                                        <li class="hidden-tablet hidden-desktop phone-actions">
+                                            <button class="button-text menubutton">
+                                                <i class="fi fi-3-dot"></i>
+                                                更多
+                                            </button>
+                                            <div class="menu goog-menu goog-menu-vertical zh-answer-more-actions" style="display:none">
+                                                <div class="goog-menuitem js-share">分享</div>
+                                                <div class="goog-menuseparator"></div>
+                                                <div class="goog-menuitem js-collect">收藏</div>
+                                                <div class="goog-menuseparator"></div>
+                                                <div class="goog-menuitem js-thank ">感谢</div>
+                                                <div class="goog-menuseparator"></div>
+                                                <div class="goog-menuitem js-report">举报</div>
+                                                <div class="goog-menuseparator"></div>
+                                                <div class="goog-menuitem">
+                                                    <meta name="copyrightStatus" content="1">
+                                                    <meta name="disableCopyAvatar" content="https://pic4.zhimg.com/f5b4ba9655e15da8a0634e2d30f3789f_m.jpg">
+                                                    <a href="/terms#sec-licence-1" target="_blank" class="js-copyright">作者保留权利</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="item" data-type="Question">
+                                <link itemprop="url" href="/question/35083244">
+                                <meta itemprop="question-id" content="6239911">
+                                <meta itemprop="question-url-token" content="35083244">
+                                <div class="item-header">
+                                    <h2 class="item-title">
+                                        <a class="link" target="_blank" href="/question/35083244">为什么说博尔特的200米纪录比100米纪录更惊世骇俗？</a>
+                                    </h2>
+                                </div>
+                                <div class="item-footer js-contentActions">
+                                    <ul class="item-actions">
+                                        <li>
+                                            <button class="button-text follow unfollowing" data-follow="q:fi:button" data-id="6239911">
+                                                <i class="fi fi-follow"></i>
+                                                <span class="label">关注</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="button-text comment js-toggleCommentBox toggle-comment">
+                                                <i class="fi fi-comment"></i>
+                                                <span class="label">添加评论</span>
+                                            </button>
+                                        </li>
+                                        <li class="bull">&bull;</li>
+                                        <li>
+                                            <a href="/question/35083244">11 个回答</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="item" data-type="Question">
+                                <link itemprop="url" href="/question/49721942">
+                                <meta itemprop="question-id" content="12105414">
+                                <meta itemprop="question-url-token" content="49721942">
+                                <div class="item-header">
+                                    <h2 class="item-title">
+                                        <a class="link" target="_blank" href="/question/49721942">如何评价 2016 里约奥运会羽毛球男单半决赛李宗伟 2:1 林丹？</a>
+                                    </h2>
+                                </div>
+                                <div class="item-footer js-contentActions">
+                                    <ul class="item-actions">
+                                        <li>
+                                            <button class="button-text follow unfollowing" data-follow="q:fi:button" data-id="12105414">
+                                                <i class="fi fi-follow"></i>
+                                                <span class="label">关注</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="button-text comment js-toggleCommentBox toggle-comment">
+                                                <i class="fi fi-comment"></i>
+                                                <span class="label">39 条评论</span>
+                                            </button>
+                                        </li>
+                                        <li class="bull">&bull;</li>
+                                        <li>
+                                            <a href="/question/49721942">1043 个回答</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="item" data-type="Answer">
+                                <a class="zg-anchor-hidden" name="answer-7850964"></a>
+                                <link itemprop="url" href="/question/25564164/answer/31165008">
+                                <meta itemprop="question-id" content="2408314">
+                                <meta itemprop="question-url-token" content="25564164">
+                                <meta itemprop="answer-id" content="7850964">
+                                <meta itemprop="answer-url-token" content="31165008">
+                                <div class="item-header">
+                                    <h2 class="item-title">
+                                        <a class="js-title-link" target="_blank" href="/question/25564164/answer/31165008">李宗伟在马来西亚地位如何？</a>
+                                    </h2>
+                                </div>
+                                <article class="entry answer">
+                                    <div class="entry-left hidden-phone">
+                                        <a class="rating hidden-expanded js-expand js-vote-count" data-bind-votecount>663</a>
+                                        <div class="votebar visible-expanded">
+                                            <button class="up " title="赞同">
+                                                <i class="fi-voteup-arrow"></i>
+                                                <span class="count">663</span>
+                                                <span class="sr-only">赞同</span>
+                                            </button>
+                                            <button class="down" title="反对，不会显示你的姓名">
+                                                <i class="fi-votedown-arrow"></i>
+                                                <span class="sr-only">反对，不会显示你的姓名</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="entry-body">
+                                        <div class="entry-meta">
+                                            <strong class="author-line">
+                                                <a class="author" href="/people/hongtayfeng" data-hovercard='p$t$hongtayfeng'>HongTay丰</a>
+                                                ，<span title="Malaysian，马来西亚人" class="bio">Malaysian，马来西亚人</span>
+                                            </strong>
+                                        </div>
+                                        <div class="entry-content js-collapse-body" data-author-name="HongTay丰" data-entry-url="/question/25564164/answer/31165008">
+                                            <div class="summary hidden-expanded js-expand">
+                                                谢邀，我先说说两年前的回忆吧 ： ） 两年前奥运羽球决赛前夕，在马来西亚的各个角落你都会看到人们在讨论着这比赛，要认识新朋友打开话匣子，说这准没错。因为马来西亚从来没拿过奥运金牌，而这比赛可说是我们有史以来最有机会的一次，加上羽球几乎可算是…<a class="toggle-expand inline" href="/question/25564164/answer/31165008">显示全部</a>
+                                            </div>
+                                            <div class="visible-expanded">
+                                                <div class="zm-item-vote-info" data-votecount="663">
+                                                    <span class="voters">
+                                                        <span class="member">
+                                                            <a href="/people/han-han-bo-72" data-hovercard='p$t$han-han-bo-72'>韩翰博</a>
+                                                            <span>、</span>
+                                                        </span>
+                                                        <span class="member">
+                                                            <a href="/people/xuedingedemiao" data-hovercard='p$t$xuedingedemiao'>姚二</a>
+                                                            <span>、</span>
+                                                        </span>
+                                                        <span class="member">
+                                                            <a href="/people/zhang-bu-qi-24" data-hovercard='p$t$zhang-bu-qi-24'>yueyueyue</a>
+                                                        </span>
+                                                    </span>
+                                                    <a class="more">等人赞同</a>
+                                                </div>
+                                                <script type="text" class="content">
+                                                    谢邀，我先说说两年前的回忆吧 ： ）<br>两年前奥运羽球决赛前夕，在马来西亚的各个角落你都会看到人们在讨论着这比赛，要认识新朋友打开话匣子，说这准没错。因为马来西亚从来没拿过奥运金牌，而这比赛可说是我们有史以来最有机会的一次，加上羽球几乎可算是本地的国球，所以当天全国上下每个人都希望李宗伟获得胜利。<br>比赛开打前一小时，基本上除了聚在嘛嘛档准备看比赛的人外，其他人不管是为高权重的首相还是平民百姓都回到家准备收看了。<br>（嘛嘛档：淡米尔裔穆斯林餐厅，马来西亚的特别文化，餐厅会把桌椅摆在路旁并用大电视或投影机播放比赛或电影，大家都喜欢聚在这里看球吃饭和聊天）<br><img src="https://pic2.zhimg.com/a050e135187e7ba20e417a645f0ed37d_b.jpg" data-rawwidth="400" data-rawheight="258" class="content_image" width="400">（当天聚在嘛嘛档看球的人）<br>比赛接着开始了<br>当李宗伟获得比赛第一分时，邻居家、周遭住宅区、外面商店和嘛嘛档传来的欢呼声席卷而来让我听不清自己刚刚的欢呼声。而李宗伟接下来因为失误而送分时，各方叹息声也如潮水般涌来。<br>记得在第三句李宗伟先拿到１９分时，周遭不知是哪个人突然有节奏地喊起了：李宗伟加油！李宗伟加油！．．．．<br><br><b>然后，整个城市也跟着喊了起来</b><br><br><br><b>我人生中第一次感受到整个城市，不，整个国家的呼吸脉搏竟如此一致！我想这就是体育的力量。它让本地人民不分种族，不分信仰用最纯粹的方式团结起来。</b><br><b>而李宗伟就是这个代表符号．</b><br><br><br><br>马来西亚是由３大种族（马来人、华人和印度人组成）和其他少数名族组成，有着不同的文化和信仰，这是马来西亚迷人的地方，但也正因为如此，除了国父外，在李宗伟前从来没有任何一人能同时得到各种族的喜爱和支持。当然也会有本地人不喜欢他，但真的非常少。所以，他的地位可想而知了。附上一张他结婚时的照片，首相纳吉（前排左一）是他的宾客。<br><img src="https://pic1.zhimg.com/a9f57f7af0a1869a5ddf12c4bb365bc4_b.jpg" data-rawwidth="526" data-rawheight="375" class="origin_image zh-lightbox-thumb" width="526" data-original="https://pic1.zhimg.com/a9f57f7af0a1869a5ddf12c4bb365bc4_r.jpg"><br>就写到这，有机会再补充～<br><br><br>----------------------------------------------奥运结束后更新<br><br><br>李2林4<br><br>他们的时代在慢慢的过去，但我永远记得！<br><br>好希望他们以后的孩子也会在奥运对上啊！都是羽球世家！！！<br><br>就到这吧…
+                                                </script>
+                                                <a class="time" href="/question/25564164/answer/31165008">2014-09-29</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                                <div class="item-footer js-contentActions">
+                                    <ul class="item-actions">
+                                        <li class="hidden-tablet hidden-desktop">
+                                            <button class="button-text vote-num js-openVoteDialog">
+                                                <span data-bind-votecount>663</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="button-text follow unfollowing" data-follow="q:fi:button" data-id="2408314">
+                                                <i class="fi fi-follow"></i>
+                                                <span class="label">关注</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="button-text comment js-toggleCommentBox toggle-comment">
+                                                <i class="fi fi-comment"></i>
+                                                <span class="label">75 条评论</span>
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <button class="button-text auto-hide js-thank ">
+                                                <i class="fi fi-thank"></i>
+                                                感谢
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <button class="button-text auto-hide js-share">
+                                                <i class="fi fi-share"></i>
+                                                分享
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <button class="button-text auto-hide js-collect">
+                                                <i class="fi fi-fav"></i>
+                                                收藏
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <button class="button-text auto-hide js-report">
+                                                <i class="fi fi-report"></i>
+                                                举报
+                                            </button>
+                                        </li>
+                                        <li class="hidden-phone">
+                                            <meta name="copyrightStatus" content="1">
+                                            <meta name="disableCopyAvatar" content="https://pic3.zhimg.com/a31bc3c06_m.jpg">
+                                            <meta name="own" content="true">
+                                            <a href="/terms#sec-licence-1" target="_blank" class="action-item js-copyright">作者保留权利</a>
+                                        </li>
+                                        <li class="hidden-phone item-collapse js-collapse">
+                                            <button class="button-text">
+                                                <i class="sprite-global-icon-fold-round-default"></i>
+                                                收起
+                                            </button>
+                                        </li>
+                                        <li class="hidden-tablet hidden-desktop phone-actions">
+                                            <button class="button-text menubutton">
+                                                <i class="fi fi-3-dot"></i>
+                                                更多
+                                            </button>
+                                            <div class="menu goog-menu goog-menu-vertical zh-answer-more-actions" style="display:none">
+                                                <div class="goog-menuitem js-share">分享</div>
+                                                <div class="goog-menuseparator"></div>
+                                                <div class="goog-menuitem js-collect">收藏</div>
+                                                <div class="goog-menuseparator"></div>
+                                                <div class="goog-menuitem js-thank ">感谢</div>
+                                                <div class="goog-menuseparator"></div>
+                                                <div class="goog-menuitem js-report">举报</div>
+                                                <div class="goog-menuseparator"></div>
+                                                <div class="goog-menuitem">
+                                                    <meta name="copyrightStatus" content="1">
+                                                    <meta name="disableCopyAvatar" content="https://pic3.zhimg.com/a31bc3c06_m.jpg">
+                                                    <a href="/terms#sec-licence-1" target="_blank" class="js-copyright">作者保留权利</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="item" data-type="Question">
+                                <link itemprop="url" href="/question/20290373">
+                                <meta itemprop="question-id" content="296405">
+                                <meta itemprop="question-url-token" content="20290373">
+                                <div class="item-header">
+                                    <h2 class="item-title">
+                                        <a class="link" target="_blank" href="/question/20290373">跳远、撑杆跳等比赛里，为什么选手在助跑之前会示意观众鼓掌？</a>
+                                    </h2>
+                                </div>
+                                <div class="item-footer js-contentActions">
+                                    <ul class="item-actions">
+                                        <li>
+                                            <button class="button-text follow unfollowing" data-follow="q:fi:button" data-id="296405">
+                                                <i class="fi fi-follow"></i>
+                                                <span class="label">关注</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="button-text comment js-toggleCommentBox toggle-comment">
+                                                <i class="fi fi-comment"></i>
+                                                <span class="label">添加评论</span>
+                                            </button>
+                                        </li>
+                                        <li class="bull">&bull;</li>
+                                        <li>
+                                            <a href="/question/20290373">4 个回答</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="item" data-type="Question">
+                                <link itemprop="url" href="/question/49612365">
+                                <meta itemprop="question-id" content="12061451">
+                                <meta itemprop="question-url-token" content="49612365">
+                                <div class="item-header">
+                                    <h2 class="item-title">
+                                        <a class="link" target="_blank" href="/question/49612365">张继科为什么突然火了？</a>
+                                    </h2>
+                                </div>
+                                <div class="item-footer js-contentActions">
+                                    <ul class="item-actions">
+                                        <li>
+                                            <button class="button-text follow unfollowing" data-follow="q:fi:button" data-id="12061451">
+                                                <i class="fi fi-follow"></i>
+                                                <span class="label">关注</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="button-text comment js-toggleCommentBox toggle-comment">
+                                                <i class="fi fi-comment"></i>
+                                                <span class="label">25 条评论</span>
+                                            </button>
+                                        </li>
+                                        <li class="bull">&bull;</li>
+                                        <li>
+                                            <a href="/question/49612365">470 个回答</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <aside class="page-sidebar pure-u-1 pure-u-md-7-24">
+                <div class="unit-inner">
+                    <div class="shameimaru-placeholder" data-loc="roundtable_up" data-roundtable_token="rio2016"></div>
+                    <div class="module organizations">
+                        <div class="module-header">
+                            <h3>主办方</h3>
+                        </div>
+                        <div class="module-body">
+                            <ul class="items">
+                                <li class="item">
+                                    <div class="item-header">
+                                        <a href="/topic/19793502" class="item-link" tabindex="-1" data-hovercard='t$t$19793502'>
+                                            <img src="https://pic1.zhimg.com/6670da54c_l.jpg" alt="知乎圆桌" class="avatar d50"></img>
+                                        </a>
+                                        <div class="content">
+                                            <a href="/topic/19793502" class="name" data-hovercard='t$t$19793502'>知乎圆桌</a>
+                                            <div class="bio">举办过 108 场圆桌</div>
+                                        </div>
+                                    </div>
+                                    <div class="item-body">
+                                        <p class="description">
+                                            知乎发起的在线嘉宾讨论，详情请点击：<a href="http://www.zhihu.com/question/20886632" data-editable="true" data-title="什么是「知乎圆桌」？如何参与" class="">什么是「知乎圆桌」？如何参与</a>
+                                            ？<br>
+                                            圆桌页面：<a href="http://www.zhihu.com/roundtable" data-editable="true" data-title="活动">活动列表</a>
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="module participants">
+                        <div class="module-header">
+                            <h3>热门回答者</h3>
+                        </div>
+                        <div class="module-body">
+                            <ul class="items-fulid">
+                                <li class="item">
+                                    <a href="" class="item-link">
+                                        <img src="" alt="" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/datoujia" class="item-link" data-hovercard='p$t$datoujia'>
+                                        <img src="https://pic2.zhimg.com/981264d86eba520904fee3fd206863fd_l.jpg" alt="kayi大头佳" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/nulli-cedo-53" class="item-link" data-hovercard='p$t$nulli-cedo-53'>
+                                        <img src="https://pic4.zhimg.com/f5b4ba9655e15da8a0634e2d30f3789f_l.jpg" alt="Nulli Cedo" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/MrHo" class="item-link" data-hovercard='p$t$MrHo'>
+                                        <img src="https://pic4.zhimg.com/5cb119bf791ad6e2d3fcc76bda802ecf_l.png" alt="何先森饭扫光" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/pan-zhi-li-3" class="item-link" data-hovercard='p$t$pan-zhi-li-3'>
+                                        <img src="https://pic4.zhimg.com/677376123dee671b6dffc772d9ce9e47_l.jpg" alt="潘志立" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/xiaodaoren" class="item-link" data-hovercard='p$t$xiaodaoren'>
+                                        <img src="https://pic2.zhimg.com/3d8a02519d7d5075a83df7b8f070f519_l.png" alt="笑道人" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/bei-chen-41" class="item-link" data-hovercard='p$t$bei-chen-41'>
+                                        <img src="https://pic1.zhimg.com/2c472bc14_l.jpg" alt="北辰" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/yi-sa-qia" class="item-link" data-hovercard='p$t$yi-sa-qia'>
+                                        <img src="https://pic3.zhimg.com/920922a97befc812f83b865a4e44caee_l.jpg" alt="伊萨卡" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/qi-jian-bin-93" class="item-link" data-hovercard='p$t$qi-jian-bin-93'>
+                                        <img src="https://pic3.zhimg.com/ab410e0985769bae9037484258e392c2_l.jpg" alt="酒逢千己知杯少" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/ma-kun-65" class="item-link" data-hovercard='p$t$ma-kun-65'>
+                                        <img src="https://pic3.zhimg.com/26d55702bcfdd71b8ea3764f0f1faaae_l.jpg" alt="Drizzle" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/yi-mo-tong" class="item-link" data-hovercard='p$t$yi-mo-tong'>
+                                        <img src="https://pic1.zhimg.com/v2-b63184e8163bd42ad298821c8f066bcc_l.jpg" alt="伊漠瞳" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/wheeloffortune" class="item-link" data-hovercard='p$t$wheeloffortune'>
+                                        <img src="https://pic3.zhimg.com/2a326ef610cf821b45ee3ebb2f402276_l.jpg" alt="輪流轉" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/Teslacat" class="item-link" data-hovercard='p$t$Teslacat'>
+                                        <img src="https://pic3.zhimg.com/da5d41312_l.jpg" alt="特斯拉猫" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/zhu-yuan-qing" class="item-link" data-hovercard='p$t$zhu-yuan-qing'>
+                                        <img src="https://pic1.zhimg.com/c026d78a8_l.jpg" alt="Octopus" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/tinaliutong" class="item-link" data-hovercard='p$t$tinaliutong'>
+                                        <img src="https://pic2.zhimg.com/ae462d27214bb06735960128f8719d29_l.jpg" alt="This Is Not Tina" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/wang-tian-19-70-85" class="item-link" data-hovercard='p$t$wang-tian-19-70-85'>
+                                        <img src="https://pic1.zhimg.com/d173f156604a2c85c841b052c1e8ec1c_l.jpg" alt="王天" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/chang-de-shuai-zhen-de-hao-fan-a" class="item-link" data-hovercard='p$t$chang-de-shuai-zhen-de-hao-fan-a'>
+                                        <img src="https://pic3.zhimg.com/4ff9b136ae696abca45c9a54574a5866_l.jpg" alt="长得帅真的好烦啊" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/li-long-67-10" class="item-link" data-hovercard='p$t$li-long-67-10'>
+                                        <img src="https://pic4.zhimg.com/60904e27a7d5b1e85c9f233def0652e3_l.jpg" alt="李龙" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/org/zhong-guo-ke-pu-bo-lan" class="item-link" data-hovercard='p$t$zhong-guo-ke-pu-bo-lan'>
+                                        <img src="https://pic4.zhimg.com/c1b4a75b500a354b1b6dfa2b7ddfefaf_l.jpg" alt="中国科普博览" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/wdai9901" class="item-link" data-hovercard='p$t$wdai9901'>
+                                        <img src="https://pic3.zhimg.com/42673df67eab62817eb9aab074b07bf2_l.jpg" alt="WDai9901" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/li-chi-3" class="item-link" data-hovercard='p$t$li-chi-3'>
+                                        <img src="https://pic3.zhimg.com/4538030f241b1efdfaad0e0aacc139a6_l.jpg" alt="黎眸" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/chebr" class="item-link" data-hovercard='p$t$chebr'>
+                                        <img src="https://pic4.zhimg.com/06010840e37cd4629c6c8f5695e9190b_l.jpg" alt="JogosRio2016" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/modanyan" class="item-link" data-hovercard='p$t$modanyan'>
+                                        <img src="https://pic1.zhimg.com/371a41200_l.jpg" alt="丹宴" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/mi-ge-er-jie" class="item-link" data-hovercard='p$t$mi-ge-er-jie'>
+                                        <img src="https://pic1.zhimg.com/a7b2ca6f1eedf9ac04b65f5e6027dc58_l.jpg" alt="米格尔街" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/zhan-teng-yu" class="item-link" data-hovercard='p$t$zhan-teng-yu'>
+                                        <img src="https://pic3.zhimg.com/a03a8eaf78328a104f6c51173be6c702_l.jpg" alt="腾宇" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/yu-hui-23-82" class="item-link" data-hovercard='p$t$yu-hui-23-82'>
+                                        <img src="https://pic1.zhimg.com/ec3de3cee61114c1ae0f4303256d0ed4_l.jpg" alt="逾晖" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/lang-bao-bao-72" class="item-link" data-hovercard='p$t$lang-bao-bao-72'>
+                                        <img src="https://pic2.zhimg.com/b28a4217a763ea990563f33fb40a5ce9_l.png" alt="狼宝宝" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/wu-qian-xin-44" class="item-link" data-hovercard='p$t$wu-qian-xin-44'>
+                                        <img src="https://pic3.zhimg.com/1883a4b9a201051129d2d94c7b5c0dba_l.jpg" alt="吴倩昕" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/tang-qi-cheng" class="item-link" data-hovercard='p$t$tang-qi-cheng'>
+                                        <img src="https://pic3.zhimg.com/8ac8d339a2af2540390cdb034f16650a_l.jpg" alt="唐启承" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/yuan-xia-xia-17" class="item-link" data-hovercard='p$t$yuan-xia-xia-17'>
+                                        <img src="https://pic1.zhimg.com/04fe6895841f52064b6b7bf8042a0768_l.jpg" alt="圆呷呷" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/xi-shi-ting-14" class="item-link" data-hovercard='p$t$xi-shi-ting-14'>
+                                        <img src="https://pic2.zhimg.com/ed4cd08f390f7666bd6a58fc7bb77401_l.jpg" alt="西十亭" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/kmlover" class="item-link" data-hovercard='p$t$kmlover'>
+                                        <img src="https://pic2.zhimg.com/6518de36bf425e2ffb7c2b80f14a62b1_l.jpg" alt="kmlover" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/yiqin-fu" class="item-link" data-hovercard='p$t$yiqin-fu'>
+                                        <img src="https://pic3.zhimg.com/ab42ee385e4c709c9d0664bef96459ae_l.jpg" alt="Yiqin Fu" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/sinsirius" class="item-link" data-hovercard='p$t$sinsirius'>
+                                        <img src="https://pic2.zhimg.com/8c8a546a24f6f076aa2e83382eb6943d_l.jpg" alt="费寒冬" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/liu-hao-guang-guang-de-8" class="item-link" data-hovercard='p$t$liu-hao-guang-guang-de-8'>
+                                        <img src="https://pic4.zhimg.com/9a3c4fa13d400d041b89a8d6ebae8e03_l.jpg" alt="刘浩咣咣的" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/jiao-wo-jia-si-ke-yin" class="item-link" data-hovercard='p$t$jiao-wo-jia-si-ke-yin'>
+                                        <img src="https://pic3.zhimg.com/1889b05f7569217be1bec8b437411322_l.jpg" alt="卡老师" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/benjamin" class="item-link" data-hovercard='p$t$benjamin'>
+                                        <img src="https://pic2.zhimg.com/682e529cd_l.jpg" alt="裘Benjamin" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/hongtayfeng" class="item-link" data-hovercard='p$t$hongtayfeng'>
+                                        <img src="https://pic3.zhimg.com/a31bc3c06_l.jpg" alt="HongTay丰" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/winyutong" class="item-link" data-hovercard='p$t$winyutong'>
+                                        <img src="https://pic3.zhimg.com/aaa8085287c18beb0bb9bdad9bd038aa_l.jpg" alt="白玉盘" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/li-yuan-zi-44" class="item-link" data-hovercard='p$t$li-yuan-zi-44'>
+                                        <img src="https://pic1.zhimg.com/fa6629e84efa963a2453e0ff25765bfc_l.jpg" alt="李沅紫" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/shengmingboxing" class="item-link" data-hovercard='p$t$shengmingboxing'>
+                                        <img src="https://pic2.zhimg.com/2b3d526575b1ab4a2f3bae4582eab0e9_l.jpg" alt="黄圣明" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/ai-ya-xiao-han" class="item-link" data-hovercard='p$t$ai-ya-xiao-han'>
+                                        <img src="https://pic1.zhimg.com/5c28983b75221cc3ffeec280cbf4e8a4_l.jpg" alt="哎呀小寒" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/liang-yuan-yuan-35-1" class="item-link" data-hovercard='p$t$liang-yuan-yuan-35-1'>
+                                        <img src="https://pic3.zhimg.com/39794d41a5ad3b2883ce859144f2a006_l.jpg" alt="梁媛媛" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/cui-he-shan" class="item-link" data-hovercard='p$t$cui-he-shan'>
+                                        <img src="https://pic2.zhimg.com/57ffcccc71dbb0c150498dc41559af85_l.jpg" alt="崔赫珊" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/xinpusem" class="item-link" data-hovercard='p$t$xinpusem'>
+                                        <img src="https://pic3.zhimg.com/9fdc6c0a70723c2d3509dd895811ce8e_l.jpg" alt="天气不错" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/he-xiao-hui-55" class="item-link" data-hovercard='p$t$he-xiao-hui-55'>
+                                        <img src="https://pic3.zhimg.com/bab93f9da_l.jpg" alt="何晓晖" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/qi-yan-yue-30" class="item-link" data-hovercard='p$t$qi-yan-yue-30'>
+                                        <img src="https://pic1.zhimg.com/c105c6c6205314cbb19d56768da29f3c_l.jpg" alt="齐广跃" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/ren-tian-man-42" class="item-link" data-hovercard='p$t$ren-tian-man-42'>
+                                        <img src="https://pic1.zhimg.com/da8e974dc_l.jpg" alt="任天蛮" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/liu-xiang-yu-66-81" class="item-link" data-hovercard='p$t$liu-xiang-yu-66-81'>
+                                        <img src="https://pic1.zhimg.com/266ab8f14_l.jpg" alt="暗涌" class="avatar d50">
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="/people/nievader" class="item-link" data-hovercard='p$t$nievader'>
+                                        <img src="https://pic3.zhimg.com/22b2b781b443cae6a59e129d6f17efba_l.jpg" alt="nievader" class="avatar d50">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="module">
+                        <div class="module-header">
+                            <h3>
+                                <a href="/roundtable">查看全部圆桌活动 »</a>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="module">
+                        <div class="global-footer">
+                            <ul>
+                                <li>
+                                    <a href="https://liukanshan.zhihu.com" target="_blank">刘看山</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;" id="js-feedback-button">建议反馈</a>
+                                </li>
+                                <li>
+                                    <a href="/app" target="_blank">移动应用</a>
+                                </li>
+                                <li>
+                                    <a href="/careers">招聘</a>
+                                </li>
+                                <li>
+                                    <a href="/question/19581624" target="_blank">知乎指南</a>
+                                </li>
+                                <li>
+                                    <a href="/terms" target="_blank">知乎协议</a>
+                                </li>
+                                <li>
+                                    <span class="copy">&copy;2016 知乎 </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </main>
+        <script type="text/json" class="json-inline" data-name="guiders2">
+            {}
+        </script>
+        <script type="text/json" class="json-inline" data-name="current_user">
+            ["","","","-1","",0,0]
+        </script>
+        <script type="text/json" class="json-inline" data-name="user_status">
+            [null,null]
+        </script>
+        <script type="text/json" class="json-inline" data-name="env">
+            ["zhihu.com","comet.zhihu.com",false,null,false]
+        </script>
+        <script type="text/json" class="json-inline" data-name="permissions">
+            []
+        </script>
+        <script type="text/json" class="json-inline" data-name="ga_vars">
+            {"user_created":0,"now":1473757398000,"abtest_mask":"------------------------------","user_attr":[0,0,0,"-","-"],"user_hash":0}
+        </script>
+        <script type="text/json" class="json-inline" data-name="ra-urls">
+            {"Copyright":"http:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Copyright.7e4d2b04.js","Community":"http:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Community.3ddc9a9e.js","Report":"http:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Report.7402881c.js","common":"http:\/\/static.zhihu.com\/static\/revved\/-\/apps\/common.3768774e.js","BalanceApp":"http:\/\/static.zhihu.com\/static\/revved\/-\/apps\/BalanceApp.f3d1061f.js","AnswerWarrant":"http:\/\/static.zhihu.com\/static\/revved\/-\/apps\/AnswerWarrant.e1a4330d.js","OrgAnalytics":"http:\/\/static.zhihu.com\/static\/revved\/-\/apps\/OrgAnalytics.6d7ab6bd.js","CommentApp":"http:\/\/static.zhihu.com\/static\/revved\/-\/apps\/CommentApp.e0ec3f50.js"}
+        </script>
+        <script type="text/json" class="json-inline" data-name="current_roundtable">
+            {"id": 136,"slug": "rio2016"}
+        </script>
+        <script src="http://static.zhihu.com/static/revved/-/js/vendor.cb14a042.js"></script>
+        <script src="http://static.zhihu.com/static/revved/-/js/closure/base.c054ab5f.js"></script>
+        <script src="http://static.zhihu.com/static/revved/-/js/closure/common.1f51c04d.js"></script>
+        <script src="http://static.zhihu.com/static/revved/-/js/closure/richtexteditor.b7b7c22e.js" async></script>
+        <script src="http://static.zhihu.com/static/revved/-/js/closure/page-roundtable.3e34d73e.js"></script>
+        <meta name="entry" content="ZH.entryRb" data-module-id="page-roundtable">
+    </body>
+</html>

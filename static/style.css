@@ -1,0 +1,78 @@
+body
+{
+	/*background: #d0e4fe url('../liu/2016-09-04 22-07-54屏幕截图.png') no-repeat center  top;*/
+	background:orange url("liu/6d81800a19d8bc3ec5e10a36828ba61ea9d34564.jpg")  center ;
+    background-size:2000px;
+    width:100%;
+	text-align:center;
+	color:blue;
+}
+.container
+{
+	margin-left:10px;
+	margin-right:5px;
+	margin-top:250px;
+}
+.center_div
+{
+	border:1px solid ;
+	margin-left:auto;
+	margin-right:auto;
+
+	width:35%;
+	
+	text-align:center;
+	font-size:10px;
+	color:blue;
+	padding:2px;
+}
+#paral
+{
+	text-align:center;
+	color:red;
+	font-size:30px;
+	
+}
+p.center
+{
+	text-align:center;
+}
+p.serif
+{
+	text-align:center;font-family:"Times New Roman",Times,red serif;
+}
+p.sansserif{text-align:center;font-family:Arial,Helvetica,sans-serif;}
+.normal{font-style:normal;}
+.italic{font-style:italic;}
+.oblique{font-style:oblique;}
+
+a:link{text-decoration:none;}
+a:visited{text-decoration:none;}
+a:hover{text-decoration:underline;}
+a:active{text-decoration:underline;}
+ul.a{list-style-type:circle;list-style-align:center;}
+ul.b{list-style-type:square;}
+ul.c{list-style-type:upper-roman;}
+ul.d{list-style-type:lower-alpha;}
+ul
+{
+	/*list-style-image:url("liu/2016-09-04 22-07-54屏幕截图.png");*/
+}
+table, th,td
+{
+	border:0.1px solid orange;
+
+	width:400px;
+	color:yellow;
+
+	
+}
+table.a{border-collapse:collapse;}
+table.a,td.a,th.a{border:1px solid red;}
+table.b,td.b,th.b{
+	border:1px solid #efe;
+	background-color:red;
+	color:blue;
+}
+table.b{width:30%;}
+th.b{height:50px;}

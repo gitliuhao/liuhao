@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script>
+function changeImage()
+{
+	element=document.getElementById('myimage')
+	if (element.src.match("bulbon"))
+ 	{
+  		element.src="pic_bulboff.gif";
+  	}
+	else
+   {
+  		element.src="9213b07eca806538353cbe9e97dda144ac34826c.jpg";
+   }
+}
+</script>
+<img id="myimage" onclick="changeImage()"
+ src="pic_bulboff.gif" width="100" height="180">
+
+</body>
+</html>
