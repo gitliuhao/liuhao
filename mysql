@@ -1,0 +1,111 @@
+set password for 'root'@'localhost' =password('')　
+＃修改用户名和密码
+
+create user 'monk'@'host' identified by 'test123';   　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+＃创建新的用户和密码
+
+grant all privileges on *.* to username@host;       　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　 
+＃授予用户上所有权限
+
+create database senguocc default character set utf8mb4;   　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+＃创建数据库设置数据库的默认编码
+
+
+show databases;    　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+＃查看所有数据库
+
+select * from mysql.user　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+＃查看所有的用户
+
+use liuhao;                 　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+＃使用数据库名字的数据库
+
+show TABLES;                　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+＃查看所有的表
+
+SHOW COLUMNS FROM ｌｉｕｈａｏ;　　
+＃查看某表中所有的列
+
+create table liuhao(column_name colum_type); 
+＃创建一个表
+　
+create table ｌｉｕｈａｏ(表列的名字　列的类型　　　　　
+............,
+................,
+............,primary key (...))
+＃创建一个表的字节
+
+drop table table_name;  
+＃删除数据表       
+
+insert into liuhao(ｆｉｅｌｄ２,field2,...fieldN)         
+                   values
+                   (value1,value2,...value3)
+＃在某表中插入数据
+
+select *(或者写某字段名字如:columm_name,colum_name)) from  liuhao;   
+＃挑选某表中的所有的列和数据
+
+
+select * from liuhao where runoob_author="...";   
+＃在某个表查询字节码和对应的数据
+
+update liuhao set runnob_title="..." where runoob_id=3;   
+＃修改表中内列与列对应的数据
+
+
+delete from liuhao where runoob_id=3;     
+＃删除表中某列的数据
+
+select * from liuhao where runoob_author like "%jay"   
+＃查询某表某列节数据含有jay的所有记录
+
+select * from liuhao order by runoob_id asc(或desc)；　
+＃表中的字段数据排序，正序和倒叙
+
+
+
+select name,count(*) from employee_tb1 group by name;   
+＃讲数据表按列进行分组，并统计每个列名有多少条相同的列记录，
+
+select name,sum(singin) as singin_count from employee_tb1 group by name with rollup;                                              
+＃将一个表的两个列融合并编好那个列，统计那个列的次数（统计那两个列，同名次数总和）最后统计总次数　可以用coalesce(name,'总数')取代ＮＵＬＬ
+
+
+-- ----------------------------
+--  Table structure for `employee_tbl`
+-- ----------------------------
+DROP TABLE IF EXISTS `employee_tbl`;
+-- ----------------------------
+--  Records of `employee_tbl`
+-- ----------------------------
+BEGIN;
+＃另一种建表方式加engine=innodb default charset=utf8;
+
+select * from table_name1 inner join table_name2 on column_name1 = clumn_name2 where clumn_namen='...';
+#通过两个表的字段条件从这两个表中筛选字段里的数据形成的表
+SELECT a.runoob_id, a.runoob_author, b.runoob_count FROM runoob_tbl a INNER JOIN tcount_tbl b ON a.runoob_author = b.runoob_author;
+#从两个表中找出两种表的字段相等的数据一一对应在选择的字段
+
+SELECT b.runoob_id, b.runoob_author, a.runoob_count FROM tcount_tbl a RIGHT JOIN runoob_tbl b ON a.runoob_author = b.runoob_author;
+#该语句会读取右边的数据表 runoob_tbl 的所有选取的字段数据，即便在左侧表tcount_tbl中没有对应的runoob_author字段值。
+
+SELECT * FROM tcount_tbl WHERE runoob_count != NULL;  
+查空的数据时用is
+
+
+alter table testalter_tb1 drop(add) i int;
+#在表中删除或添加字段
+
+alter table testalter_tb1 modify c char;
+#修改某表某字段的数据类型（可以修改属性)
+
+alter table testalter_tb1 change i j int;
+#修改某表的某字段名字和数据类型
+
+
+ALTER TABLE testalter_tbl ALTER i SET DEFAULT 1000;
+#修改表中字段的设置默认值
+
+
+

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>{% extends "main.html" %}
+
+{% block body %}
+<h2>Recommended Reading</h2>
+    {% for book in books %}
+        {% module Book(book) %}
+    {% end %}
+{% end %}
+
+</body>
+</html>
