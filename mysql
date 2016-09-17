@@ -1,7 +1,0 @@
-set password for 'root'@'localhost' =password('')    修改用户名和密码
-
-create user 'monk'@'host' identified by 'test123';   创建新的用户和密码
-
-grant all privileges on *.* to username@host;        授予用户上所有权限
-create database senguocc default character set utf8mb4;   创建数据库设置数据库的默认编码
-
